@@ -13,6 +13,7 @@ class Article:
     item_type: Optional[str] = None
     source: Optional[str] = None
     issue: Optional[str] = None
+    stage: Optional[str] = None
 
     def to_dict(self):
         return asdict(self)
