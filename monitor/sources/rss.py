@@ -1,3 +1,4 @@
+import re
 import feedparser
 from dateutil import parser as dateparser
 from monitor.models import Article
@@ -11,8 +12,34 @@ def _date(entry, names):
             except Exception: pass
     return None
 
+def _norm(value):
+    value=(value or "").lower()
+    value=re.sub(r"[^a-z0-9]+"," ",value)
+    return " ".join(value.split())
+
+def _feed_matches_journal(feed_title, journal_name):
+    if not feed_title:
+        return True
+    feed=_norm(feed_title)
+    journal=_norm(journal_name)
+    if not feed or not journal:
+        return True
+    if feed == journal or journal in feed or feed in journal:
+        return True
+    stop={"the","a","an","of","and","in","on","for","journal","review","history","studies"}
+    ft={x for x in feed.split() if x not in stop}
+    jt={x for x in journal.split() if x not in stop}
+    if not ft or not jt:
+        return True
+    return len(ft & jt) >= min(2,len(jt))
+
 def fetch_rss(journal, url, source_label):
     feed = feedparser.parse(url)
+    if getattr(feed,"bozo",False) and not feed.entries:
+        return []
+    feed_title=(feed.feed.get("title") or "").strip()
+    if not _feed_matches_journal(feed_title,journal["name"]):
+        return []
     out=[]
     for entry in feed.entries:
         title=(entry.get("title") or "").strip()
