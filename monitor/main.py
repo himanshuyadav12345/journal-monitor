@@ -29,7 +29,7 @@ def main():
         urls=source_urls(j)
         publisher=(j.get("publisher") or "").lower()
         if "taylor & francis" in publisher:
-            crossref_articles=fetch_crossref(j,max_age_days=180)
+            crossref_articles=fetch_crossref(j,max_age_days=180,date_filter="created")
             issue_articles,advance_articles=classify_tandf_crossref(j,crossref_articles)
             found=issue_articles+advance_articles
             source_stats[j["id"]]={
