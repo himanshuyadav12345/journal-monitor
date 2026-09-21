@@ -3,10 +3,9 @@ from datetime import datetime,timezone
 from pathlib import Path
 from monitor.filters import keep_article
 from monitor.normalize import article_key
-from monitor.sources.crossref import fetch_crossref, classify_tandf_issue
+from monitor.sources.crossref import fetch_crossref, classify_tandf_crossref
 from monitor.sources.rss import fetch_rss
 from monitor.sources.discovery import discover_feeds
-from monitor.sources.tandf import filter_tandf_advance
 from monitor.quality import keep_fresh
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -30,17 +29,16 @@ def main():
         urls=source_urls(j)
         publisher=(j.get("publisher") or "").lower()
         if "taylor & francis" in publisher:
-            rss_articles=fetch_rss(j,urls.get("issue"),"publisher:issue") if urls.get("issue") else []
-            issue_articles=classify_tandf_issue(j,rss_articles)
-            advance_candidates=fetch_crossref(j)
-            advance_articles=filter_tandf_advance(j,advance_candidates)
+            crossref_articles=fetch_crossref(j,max_age_days=180)
+            issue_articles,advance_articles=classify_tandf_crossref(j,crossref_articles)
             found=issue_articles+advance_articles
             source_stats[j["id"]]={
-                "issue":bool(urls.get("issue")),"advance":bool(urls.get("issue")),
-                "records":0,"raw_records":len(rss_articles),"stale_rejected":0,
-                "tandf_rss_records":len(rss_articles),
+                "issue":False,"advance":False,"fallback":"crossref",
+                "records":0,"raw_records":len(crossref_articles),"stale_rejected":0,
+                "tandf_rss_records":0,
                 "tandf_issue_records":len(issue_articles),
-                "tandf_online_first_records":len(advance_articles)
+                "tandf_online_first_records":len(advance_articles),
+                "crossref_records":len(crossref_articles)
             }
         else:
             found=[]
