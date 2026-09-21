@@ -1,6 +1,10 @@
 name: Journal Monitor
 
 on:
+  push:
+    paths-ignore:
+      - "data/**"
+      - "output/**"
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
