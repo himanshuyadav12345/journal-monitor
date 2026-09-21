@@ -56,19 +56,6 @@ def discover_feeds(journal):
             issue=f"https://journals.sagepub.com/action/showFeed?ai=2b4&feed=rss&jc={code}&mi=ehikzz&type=etoc&ui=0"
             advance=f"https://journals.sagepub.com/action/showFeed?ai=2b4&feed=rss&jc={code}&mi=ehikzz&type=axatoc&ui=0"
             return {"issue":issue,"advance":advance}
-            connected=urljoin(homepage,f"../../connected/{code}")
-            feeds=_find_feed_links(connected)
-            issue=None
-            advance=None
-            generic=None
-            for href,blob in feeds:
-                if any(x in blob for x in ("onlinefirst","online-first","axatoc")):
-                    advance=advance or href
-                elif any(x in blob for x in ("etoc","table of contents","recent articles","latest articles")):
-                    issue=issue or href
-                else:
-                    generic=generic or href
-            return {"issue":issue or generic,"advance":advance or generic}
 
     # Oxford and Cambridge expose RSS links in the page head or journal pages.
     feeds=_find_feed_links(homepage)
