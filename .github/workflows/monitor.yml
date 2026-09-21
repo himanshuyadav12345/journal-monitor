@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: journal-monitor
+  cancel-in-progress: false
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
