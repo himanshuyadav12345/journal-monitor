@@ -50,6 +50,12 @@ def discover_feeds(journal):
         m=re.search(r"/home/([^/?#]+)",homepage,re.I)
         if m:
             code=m.group(1)
+            # SAGE exposes stable feed endpoints on the connected page. Use the
+            # platform's feed contract directly so discovery does not depend on
+            # scraping links that may be rendered dynamically.
+            issue=f"https://journals.sagepub.com/action/showFeed?ai=2b4&feed=rss&jc={code}&mi=ehikzz&type=etoc&ui=0"
+            advance=f"https://journals.sagepub.com/action/showFeed?ai=2b4&feed=rss&jc={code}&mi=ehikzz&type=axatoc&ui=0"
+            return {"issue":issue,"advance":advance}
             connected=urljoin(homepage,f"../../connected/{code}")
             feeds=_find_feed_links(connected)
             issue=None
