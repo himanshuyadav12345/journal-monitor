@@ -15,7 +15,7 @@ def _crossref_items(journal, rows=100, max_age_days=90):
         r=requests.get(API.format(issn=issn),params={
             "rows":rows,"sort":"published","order":"desc",
             "filter":f"from-pub-date:{cutoff}",
-            "select":"DOI,title,URL,published,issued,created,type,issue,container-title"
+            "select":"DOI,title,URL,published,published-online,issued,created,type,issue,container-title"
         },headers=HEADERS,timeout=30)
         r.raise_for_status()
         return r.json().get("message",{}).get("items",[])
@@ -47,19 +47,16 @@ def fetch_crossref(journal, rows=100, max_age_days=90):
         if a: out.append(a)
     return out
 
-def classify_tandf_issue(journal, rss_articles):
-    """
-    T&F's publication RSS is a recent-article feed, not an issue-only feed.
-    Crossref issue metadata is therefore used to retain only articles already
-    assigned to an issue. This is classification, not a replacement source.
-    """
-    items=_crossref_items(journal)
-    by_doi={normalize_doi(x.get("DOI") or ""):x for x in items if x.get("DOI")}
-    out=[]
-    for a in rss_articles:
-        x=by_doi.get(normalize_doi(a.doi or ""))
-        if x and x.get("issue"):
-            a.issue=x.get("issue")
+def classify_tandf_crossref(journal, crossref_articles):
+    """Classify T&F Crossref records by issue assignment."""
+    issue=[]; advance=[]
+    for a in crossref_articles:
+        if a.issue:
+            a.source="crossref:issue"
             a.stage="issue"
-            out.append(a)
-    return out
+            issue.append(a)
+        else:
+            a.source="crossref:online_first"
+            a.stage="online_first"
+            advance.append(a)
+    return issue, advance
