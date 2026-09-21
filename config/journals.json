@@ -1,0 +1,3174 @@
+{
+  "schema_version": "1.1",
+  "config_name": "academic-journal-monitor",
+  "description": "Metadata-only monitor for new journal issues and online-first/advance articles.",
+  "scope": {
+    "active_journals": 79,
+    "deferred_journals": [
+      {
+        "name": "Economic and Political Weekly",
+        "reason": "Deferred for later"
+      },
+      {
+        "name": "Social Scientist",
+        "reason": "Deferred for later"
+      }
+    ]
+  },
+  "defaults": {
+    "deduplication": [
+      "doi",
+      "canonical_url",
+      "normalized_title_plus_date"
+    ],
+    "primary_source_priority": [
+      "publisher",
+      "crossref",
+      "openalex"
+    ],
+    "store_full_text": false,
+    "store_pdf": false,
+    "store_abstract": false,
+    "store_metadata_only": true
+  },
+  "publisher_adapters": {
+    "Oxford Academic": {
+      "issue": "latest_issue_rss",
+      "advance": "advance_articles_rss",
+      "fallback": [
+        "crossref",
+        "openalex"
+      ]
+    },
+    "SAGE": {
+      "issue": "recent_articles_rss",
+      "advance": "onlinefirst_rss",
+      "fallback": [
+        "crossref",
+        "openalex"
+      ]
+    },
+    "Cambridge Core": {
+      "issue": "journal_rss",
+      "advance": "FirstView",
+      "fallback": [
+        "crossref",
+        "openalex"
+      ]
+    },
+    "Taylor & Francis": {
+      "issue": "journal_rss",
+      "advance": "latest_articles",
+      "fallback": [
+        "crossref",
+        "openalex"
+      ]
+    },
+    "Duke University Press": {
+      "issue": "publisher_rss_or_crossref",
+      "advance": "publisher_or_crossref",
+      "fallback": [
+        "crossref",
+        "openalex"
+      ]
+    },
+    "New Left Review": {
+      "issue": "direct_rss",
+      "advance": "direct_rss",
+      "fallback": [
+        "crossref",
+        "openalex"
+      ]
+    }
+  },
+  "journals": [
+    {
+      "id": "j001",
+      "name": "Historical Research",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0950-3471",
+        "online": "1468-2281"
+      },
+      "homepage": "https://academic.oup.com/histres",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j002",
+      "name": "The English Historical Review",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0013-8266",
+        "online": "1477-4534"
+      },
+      "homepage": "https://academic.oup.com/ehr",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j003",
+      "name": "Western Historical Quarterly",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0043-3810",
+        "online": "1939-8603"
+      },
+      "homepage": "https://academic.oup.com/whq",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j004",
+      "name": "Journal of Social History",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0022-4529",
+        "online": "1527-1897"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j005",
+      "name": "The American Historical Review",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0002-8762",
+        "online": "1937-5239"
+      },
+      "homepage": "https://academic.oup.com/ahr",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j006",
+      "name": "International Political Sociology",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "1749-5679",
+        "online": "1749-5687"
+      },
+      "homepage": "https://academic.oup.com/ips",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j007",
+      "name": "Socio-Economic Review",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "1475-1461",
+        "online": "1475-147X"
+      },
+      "homepage": "https://academic.oup.com/ser",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j008",
+      "name": "Contributions to Political Economy",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0277-5921",
+        "online": "1464-3588"
+      },
+      "homepage": "https://academic.oup.com/cpe",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j009",
+      "name": "Past & Present",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0031-2746",
+        "online": "1477-464X"
+      },
+      "homepage": "https://academic.oup.com/past",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j010",
+      "name": "Studies in History",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "0257-6430",
+        "online": "0973-080X"
+      },
+      "homepage": "https://journals.sagepub.com/home/sih",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j011",
+      "name": "Studies in People's History",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "2348-4489",
+        "online": "2349-7718"
+      },
+      "homepage": "https://journals.sagepub.com/home/sph",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j012",
+      "name": "Indian Historical Review",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "0376-9836",
+        "online": "0975-5977"
+      },
+      "homepage": "https://journals.sagepub.com/home/ihr",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j013",
+      "name": "The Indian Economic and Social History Review",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "0019-4646",
+        "online": "0973-0893"
+      },
+      "homepage": "https://journals.sagepub.com/home/ier",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j014",
+      "name": "Journal of Modern European History",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "1611-8944",
+        "online": "2631-9764"
+      },
+      "homepage": "https://journals.sagepub.com/home/jmh",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j015",
+      "name": "European History Quarterly",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "0265-6914",
+        "online": "1461-7110"
+      },
+      "homepage": "https://journals.sagepub.com/home/ehq",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j016",
+      "name": "History and Sociology of South Asia",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "2230-8075",
+        "online": "2249-5312"
+      },
+      "homepage": "https://journals.sagepub.com/home/hsa",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j017",
+      "name": "History of Science",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "0073-2753",
+        "online": "1753-8564"
+      },
+      "homepage": "https://journals.sagepub.com/home/hos",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j018",
+      "name": "Journal of Contemporary History",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "0022-0094",
+        "online": "1461-7250"
+      },
+      "homepage": "https://journals.sagepub.com/home/jch",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j019",
+      "name": "Modern Asian Studies",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0026-749X",
+        "online": "1469-8099"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j020",
+      "name": "Journal of the Royal Asiatic Society",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "1356-1863",
+        "online": "1474-0591"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j021",
+      "name": "New Left Review",
+      "publisher": "New Left Review",
+      "enabled": true,
+      "issn": {
+        "print": "0028-6060",
+        "online": "2044-0480"
+      },
+      "homepage": "https://newleftreview.org/",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://newleftreview.org/feed"
+        },
+        "advance": {
+          "feed_url": "https://newleftreview.org/feed"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j022",
+      "name": "Social Science History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0145-5532",
+        "online": "1527-8034"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j023",
+      "name": "British Catholic History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "2055-7973",
+        "online": "2055-7981"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j024",
+      "name": "Business History Review",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0007-6805",
+        "online": "2044-768X"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j025",
+      "name": "Church History: Studies in Christianity and Culture",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0009-6407",
+        "online": "1755-2613"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j026",
+      "name": "Comparative Studies in Society and History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0010-4175",
+        "online": "1475-2999"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j027",
+      "name": "Financial History Review",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0968-5650",
+        "online": "1474-0052"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j028",
+      "name": "European Review",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "1062-7987",
+        "online": "1474-0575"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j029",
+      "name": "The Historical Journal",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0018-246X",
+        "online": "1469-5103"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j030",
+      "name": "International Labour and Working-Class History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0147-5479",
+        "online": "1471-6445"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j031",
+      "name": "International Review of Social History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0020-8590",
+        "online": "1469-512X"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j032",
+      "name": "Journal of British Studies",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0021-9371",
+        "online": "1545-6986"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j033",
+      "name": "Rural History: Economy, Society, Culture",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0956-7933",
+        "online": "1474-0656"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j034",
+      "name": "Studies in Church History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0424-2084",
+        "online": "2059-0644"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j035",
+      "name": "Transactions of the Royal Historical Society",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0080-4401",
+        "online": "1474-0648"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j036",
+      "name": "Bulletin of SOAS",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0041-977X",
+        "online": "1474-0699"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j037",
+      "name": "Journal of Global History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "1740-0228",
+        "online": "1740-0236"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j038",
+      "name": "The Journal of Economic History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0022-0507",
+        "online": "1471-6372"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j039",
+      "name": "Journal of the History of Economic Thought",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "1053-8372",
+        "online": "1469-9656"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j040",
+      "name": "Law and History Review",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0738-2480",
+        "online": "1939-9022"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j041",
+      "name": "Modern Intellectual History",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "1479-2443",
+        "online": "1479-2451"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j042",
+      "name": "The Journal of Asian Studies",
+      "publisher": "Cambridge Core",
+      "enabled": true,
+      "issn": {
+        "print": "0021-9118",
+        "online": "1752-0401"
+      },
+      "homepage": null,
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": true,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j043",
+      "name": "Comparative Studies of South Asia, Africa and the Middle East",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "1089-201X",
+        "online": "1548-226X"
+      },
+      "homepage": "https://read.dukeupress.edu/cssaame",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j044",
+      "name": "Cultural Politics",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "1743-2197",
+        "online": "1751-7435"
+      },
+      "homepage": "https://read.dukeupress.edu/cultural-politics",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j045",
+      "name": "History of Political Economy",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "0018-2702",
+        "online": "1527-1919"
+      },
+      "homepage": "https://read.dukeupress.edu/hope",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j046",
+      "name": "History of the Present",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "2159-9785",
+        "online": "2159-9793"
+      },
+      "homepage": "https://read.dukeupress.edu/hotp",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j047",
+      "name": "Monsoon: Journal of the Indian Ocean Rim",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "2834-698X",
+        "online": "2834-6998"
+      },
+      "homepage": "https://www.dukeupress.edu/monsoon",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j048",
+      "name": "The Philosophical Review",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "0031-8108",
+        "online": "1558-1470"
+      },
+      "homepage": "https://read.dukeupress.edu/philosophical-review",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j049",
+      "name": "Positions: Asia Critique",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "1067-9847",
+        "online": "1527-8271"
+      },
+      "homepage": "https://read.dukeupress.edu/positions",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j050",
+      "name": "Radical History Review",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "0163-6545",
+        "online": "1534-1453"
+      },
+      "homepage": "https://read.dukeupress.edu/radical-history-review",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j051",
+      "name": "Agricultural History",
+      "publisher": "Duke University Press",
+      "enabled": true,
+      "issn": {
+        "print": "0002-1482",
+        "online": "1533-8290"
+      },
+      "homepage": "https://read.dukeupress.edu/agh",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j052",
+      "name": "Law, Culture and the Humanities",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "1743-8721",
+        "online": "1743-9752"
+      },
+      "homepage": "https://journals.sagepub.com/home/lch",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j053",
+      "name": "Studies in Indian Politics",
+      "publisher": "SAGE",
+      "enabled": true,
+      "issn": {
+        "print": "2321-0230",
+        "online": "2321-7472"
+      },
+      "homepage": "https://journals.sagepub.com/home/sip",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j054",
+      "name": "European Review of Economic History",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "1361-4916",
+        "online": "1474-0044"
+      },
+      "homepage": "https://academic.oup.com/ereh",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j055",
+      "name": "Social Problems",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0037-7791",
+        "online": "1533-8533"
+      },
+      "homepage": "https://academic.oup.com/socpro",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j056",
+      "name": "Sociology of Religion",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "1069-4404",
+        "online": "1759-8818"
+      },
+      "homepage": "https://academic.oup.com/socrel",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j057",
+      "name": "German History",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0266-3554",
+        "online": "1477-089X"
+      },
+      "homepage": "https://academic.oup.com/gh",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j058",
+      "name": "The Journal of American History",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0021-8723",
+        "online": "1945-2314"
+      },
+      "homepage": "https://academic.oup.com/jah",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j059",
+      "name": "American Journal of Legal History",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0002-9319",
+        "online": "2161-797X"
+      },
+      "homepage": "https://academic.oup.com/ajlh",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j060",
+      "name": "Holocaust and Genocide Studies",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "8756-6583",
+        "online": "1476-7937"
+      },
+      "homepage": "https://academic.oup.com/hgs",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j061",
+      "name": "Bulletin of the Institute of Classical Studies",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "0076-0730",
+        "online": "2041-5370"
+      },
+      "homepage": "https://academic.oup.com/bics",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j062",
+      "name": "Oxford Journal of Law and Religion",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "2047-0770",
+        "online": "2047-0789"
+      },
+      "homepage": "https://academic.oup.com/ojlr",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j063",
+      "name": "Journal of Hindu Studies",
+      "publisher": "Oxford Academic",
+      "enabled": true,
+      "issn": {
+        "print": "1756-4255",
+        "online": "1756-4263"
+      },
+      "homepage": "https://academic.oup.com/jhs",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": false
+      },
+      "sources": {
+        "issue": {
+          "feed_url": null
+        },
+        "advance": {
+          "feed_url": null
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j064",
+      "name": "The Journal of Imperial and Commonwealth History",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0308-6534",
+        "online": "1743-9329"
+      },
+      "homepage": "https://www.tandfonline.com/journals/fich20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/fich20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j065",
+      "name": "Settler Colonial Studies",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "1838-0743",
+        "online": "2201-473X"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rcss20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rcss20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j066",
+      "name": "Slavery & Abolition: A Journal of Slave and Post-Slave Studies",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0144-039X",
+        "online": "1743-9523"
+      },
+      "homepage": "https://www.tandfonline.com/journals/fsla20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/fsla20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j067",
+      "name": "Comparative Legal History",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "2049-677X",
+        "online": "2049-6788"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rlaw20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rlaw20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j068",
+      "name": "The Court Historian",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "1462-9712",
+        "online": null
+      },
+      "homepage": "https://www.tandfonline.com/journals/ycou20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/ycou20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j069",
+      "name": "Global Intellectual History",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "2380-1883",
+        "online": "2380-1891"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rgih20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rgih20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j070",
+      "name": "Intellectual History Review",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "1749-6977",
+        "online": "1749-6985"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rihr20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rihr20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j071",
+      "name": "The Historian",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0018-2370",
+        "online": "1540-6563"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rhis20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rhis20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j072",
+      "name": "War & Society",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0729-2473",
+        "online": "2042-4345"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rwar20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rwar20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j073",
+      "name": "South Asian History & Culture",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "1947-2498",
+        "online": "1947-2501"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rsac20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rsac20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j074",
+      "name": "South Asian Diaspora",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "1943-8192",
+        "online": "1943-8184"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rsad20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rsad20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j075",
+      "name": "Labor History",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0023-656X",
+        "online": "1469-9702"
+      },
+      "homepage": "https://www.tandfonline.com/journals/clah20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/clah20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j076",
+      "name": "Cultural and Social History",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "1478-0038",
+        "online": "1478-0046"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rfcs20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rfcs20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j077",
+      "name": "South Asian Studies",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0266-6030",
+        "online": "2153-2699"
+      },
+      "homepage": "https://www.tandfonline.com/journals/rsas20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/rsas20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j078",
+      "name": "Contemporary South Asia",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0958-4935",
+        "online": null
+      },
+      "homepage": "https://www.tandfonline.com/journals/ccsa20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/ccsa20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    },
+    {
+      "id": "j079",
+      "name": "South Asia: Journal of South Asian Studies",
+      "publisher": "Taylor & Francis",
+      "enabled": true,
+      "issn": {
+        "print": "0085-6401",
+        "online": "1479-0270"
+      },
+      "homepage": "https://www.tandfonline.com/journals/csas20",
+      "monitoring": {
+        "issue": {
+          "method": "publisher_or_crossref"
+        },
+        "advance": {
+          "method": "publisher_or_crossref"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      },
+      "filters": {
+        "exclude_front_back_matter": false,
+        "store_article_type": true
+      },
+      "sources": {
+        "issue": {
+          "feed_url": "https://www.tandfonline.com/feed/rss/csas20"
+        },
+        "advance": {
+          "method": "latest_articles"
+        },
+        "fallback": [
+          "crossref",
+          "openalex"
+        ]
+      }
+    }
+  ],
+  "audit": {
+    "issn_checked_on": "2026-09-22",
+    "verified_count": 79,
+    "needs_manual_count": 0,
+    "missing_issn_journals": [],
+    "feed_checked_on": "2026-09-22"
+  }
+}
