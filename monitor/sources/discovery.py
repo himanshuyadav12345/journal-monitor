@@ -44,7 +44,7 @@ def discover_feeds(journal):
         m=re.search(r"/journals/([^/?#]+)",homepage)
         if m:
             feed=f"https://www.tandfonline.com/feed/rss/{m.group(1)}"
-            return {"issue":feed,"advance":feed}
+            return {"issue":feed,"advance":None}
 
     if "sage" in publisher:
         m=re.search(r"/home/([^/?#]+)",homepage,re.I)
