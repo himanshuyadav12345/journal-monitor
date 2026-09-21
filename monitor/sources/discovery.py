@@ -56,9 +56,9 @@ def discover_feeds(journal):
             advance=None
             generic=None
             for href,blob in feeds:
-                if any(x in blob for x in ("onlinefirst","online-first","axatoc","latest articles","recent articles")):
+                if any(x in blob for x in ("onlinefirst","online-first","axatoc")):
                     advance=advance or href
-                elif any(x in blob for x in ("etoc","table of contents","recent articles")):
+                elif any(x in blob for x in ("etoc","table of contents","recent articles","latest articles")):
                     issue=issue or href
                 else:
                     generic=generic or href
