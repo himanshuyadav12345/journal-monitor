@@ -6,6 +6,7 @@ from monitor.normalize import article_key
 from monitor.sources.crossref import fetch_crossref
 from monitor.sources.rss import fetch_rss
 from monitor.sources.discovery import discover_feeds
+from monitor.quality import keep_fresh
 
 ROOT=Path(__file__).resolve().parents[1]
 CONFIG=ROOT/"config/journals.json"; SEEN=ROOT/"data/seen.json"
@@ -23,7 +24,7 @@ def source_urls(journal):
 def main():
     config=json.loads(CONFIG.read_text(encoding="utf-8"))
     journals=[j for j in config["journals"] if j.get("enabled",True)]
-    all_articles=[]; stats={}; source_stats={}
+    all_articles=[]; stats={}; source_stats={}; rejected_stale={}
     for j in journals:
         found=[]
         urls=source_urls(j)
@@ -33,10 +34,14 @@ def main():
                 found.extend(fetch_rss(j,u,"publisher:"+section))
         if not found:
             found=fetch_crossref(j)
+        before=len(found)
         found=[a for a in found if keep_article(j,a)]
+        after_filters=len(found)
+        found=[a for a in found if keep_fresh(j,a)]
+        rejected_stale[j["id"]]=after_filters-len(found)
         all_articles.extend(found)
         stats[j["id"]]=len(found)
-        source_stats[j["id"]]={"issue":bool(urls.get("issue")),"advance":bool(urls.get("advance")),"records":len(found)}
+        source_stats[j["id"]]={"issue":bool(urls.get("issue")),"advance":bool(urls.get("advance")),"records":len(found),"raw_records":before,"stale_rejected":rejected_stale[j["id"]]}
     unique={}
     for a in all_articles: unique.setdefault(article_key(a),a)
     seen=set()
@@ -52,7 +57,8 @@ def main():
         "candidate_count":len(unique),
         "articles":[a.to_dict() for a in new],
         "source_stats":stats,
-        "source_availability":source_stats
+        "source_availability":source_stats,
+        "quality_control":{"publisher_max_age_days":540,"stale_records_rejected":sum(rejected_stale.values())}
     },ensure_ascii=False,indent=2),encoding="utf-8")
     with OUT_CSV.open("w",newline="",encoding="utf-8") as f:
         fields=["journal","journal_id","title","url","doi","published","updated","item_type","source","issue"]
@@ -63,6 +69,7 @@ def main():
     print(f"Journals checked: {len(journals)}")
     print(f"Unique candidate records found: {len(unique)}")
     print(f"New records: {len(new)}")
+    print(f"Stale publisher records rejected: {sum(rejected_stale.values())}")
     publisher_count=sum(1 for x in source_stats.values() if x["issue"] or x["advance"])
     print(f"Journals with publisher source available: {publisher_count}")
 
