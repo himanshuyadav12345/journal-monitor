@@ -110,10 +110,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5158/3021.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5158/advanceAccess_3021.xml"
         },
         "fallback": [
           "crossref",
@@ -149,10 +149,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5158/3021.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5158/advanceAccess_3021.xml"
         },
         "fallback": [
           "crossref",
@@ -188,10 +188,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5521/3382.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5521/advanceAccess_3382.xml"
         },
         "fallback": [
           "crossref",
@@ -266,10 +266,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5423/3284.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5423/advanceAccess_3284.xml"
         },
         "fallback": [
           "crossref",
@@ -305,10 +305,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5392/3253.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5392/advanceAccess_3253.xml"
         },
         "fallback": [
           "crossref",
@@ -344,10 +344,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5245/3113.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5245/advanceAccess_3113.xml"
         },
         "fallback": [
           "crossref",
@@ -383,10 +383,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5445/3306.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5445/advanceAccess_3306.xml"
         },
         "fallback": [
           "crossref",
@@ -422,10 +422,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5497/3358.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5497/advanceAccess_3358.xml"
         },
         "fallback": [
           "crossref",
@@ -2119,7 +2119,7 @@
         "print": "2321-0230",
         "online": "2321-7472"
       },
-      "homepage": "https://journals.sagepub.com/home/sip",
+      "homepage": "https://journals.sagepub.com/home/inp",
       "monitoring": {
         "issue": {
           "method": "publisher_or_crossref"
@@ -2177,10 +2177,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5454/3315.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5454/advanceAccess_3315.xml"
         },
         "fallback": [
           "crossref",
@@ -2255,10 +2255,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5518/3379.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5518/advanceAccess_3379.xml"
         },
         "fallback": [
           "crossref",
@@ -2294,10 +2294,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5460/3321.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5460/advanceAccess_3321.xml"
         },
         "fallback": [
           "crossref",
@@ -2372,10 +2372,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5426/3287.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5426/advanceAccess_3287.xml"
         },
         "fallback": [
           "crossref",
@@ -2411,10 +2411,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5463/3324.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5463/advanceAccess_3324.xml"
         },
         "fallback": [
           "crossref",
@@ -2450,10 +2450,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_6244/4043.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_6244/advanceAccess_4043.xml"
         },
         "fallback": [
           "crossref",
@@ -2489,10 +2489,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5229/3096.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5229/advanceAccess_3096.xml"
         },
         "fallback": [
           "crossref",
@@ -2528,10 +2528,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5194/3059.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5194/advanceAccess_3059.xml"
         },
         "fallback": [
           "crossref",
