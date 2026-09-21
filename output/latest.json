@@ -1,1353 +1,8 @@
 {
-  "generated_at": "2026-09-21T20:23:10.061876+00:00",
-  "new_count": 112,
-  "candidate_count": 1065,
-  "articles": [
-    {
-      "journal": "The Historical Journal",
-      "journal_id": "j029",
-      "title": "A Task-Oriented Approach to Human and Equine Health and Ability in Early Modern Sweden",
-      "url": "https://dx.doi.org/10.1017/S0018246X25101362?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0018246x25101362",
-      "published": null,
-      "updated": "2026-01-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Historical Journal",
-      "journal_id": "j029",
-      "title": "The Family Life of a Rising Administrative Elite in the British Treasury, c. 1847–1914",
-      "url": "https://dx.doi.org/10.1017/S0018246X25101258?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0018246x25101258",
-      "published": null,
-      "updated": "2025-12-02T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "From Amputee to Author: Shadrack Byfield and the Making of a War of 1812 Veteran",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10169?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10169",
-      "published": null,
-      "updated": "2026-01-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "One British Archive: The Weather Extremes in England's Little Ice Age Database",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10187?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10187",
-      "published": null,
-      "updated": "2026-02-06T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Imperial Politics, the Dominions, and the Irish Question, 1907–21",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10178?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10178",
-      "published": null,
-      "updated": "2026-02-06T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "One British Archive: A Monumental Task: The Archival Potential of Graveyards",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10131?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10131",
-      "published": null,
-      "updated": "2026-02-09T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "One British Archive: Stocked Stacks in the Great Plains: British and Irish Collections at the University of Kansas’s Kenneth Spencer Research Library",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10184?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10184",
-      "published": null,
-      "updated": "2026-02-11T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Rethinking the Legitimacy of British Botanizing in Late Qing China (1840–1912)",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10188?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10188",
-      "published": null,
-      "updated": "2026-02-18T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Jeremy Gregory, ed. Manchester Cathedral: A History of the Collegiate Church and Cathedral, 1421 to the Present Manchester: Manchester University Press, 2021. Pp. 472. $44.95 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2024.86?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2024.86",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Michael Braddick. Christopher Hill: The Life of a Radical Historian London and New York: Verso, 2025. Pp. 320. $44.95 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10194?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10194",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Ginger S. Frost. Mixed Marriage: Class, Religion, Race, and Nation in England, 1837–1939 Liverpool: Liverpool University Press, 2024. Pp.304. $120.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10171?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10171",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "JAD ADAMS. Decadent Women: Yellow Book Lives London: Reaktion Books, 2023. Pp. 400. $30.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10176?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10176",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Zak Leonard. Ethical Empire? India Reformism and the Critique of Colonial Misgovernment Cambridge: Cambridge University Press, 2023. Pp. 314. $110.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10181?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10181",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Alex Rock. The Metropolitan Police and the British Film Industry, 1919–1956. London: Bloomsbury Academic, 2023. Pp. 278. $115.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10162?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10162",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Rob Waters. Colonized by Humanity: Caribbean London and the Politics of Integration at the End of Empire Oxford: Oxford University Press, 2023. Pp. 293. $45.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10139?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10139",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Going Places: Histories of Britons Abroad - Michael John Law. A World Away: The British Package Holiday Boom, 1950–1974. Montreal: McGill-Queen’s University Press, 2022. Pp. 232. $130.00 (cloth). - Lucy Lethbridge. Tourists: How the British Went Abroad to Find Themselves. London: Bloomsbury Academic, 2022. Pp. 320. $31.72 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10163?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10163",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Terry Kirby. The Newsmongers: A History of Tabloid Journalism London: Reaktion Books, 2024. Pp. 384. $27.50 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10183?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10183",
-      "published": null,
-      "updated": "2026-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Race, Blood, and Soil: Viscount Lymington and Britain’s Homegrown Agrarian Fascism",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10205?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10205",
-      "published": null,
-      "updated": "2026-03-30T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "False Desertion and Fancy Men: Women and Welfare Fraud, 1945–70",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10208?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10208",
-      "published": null,
-      "updated": "2026-04-14T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Anxieties of Belonging: Ulster Protestant Migrants and the Troubles in Late Imperial England",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10229?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10229",
-      "published": null,
-      "updated": "2026-04-29T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Imperium in Imperio: The Peacetime Commander in Chief as a Linchpin of Colonial Reform",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10266?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10266",
-      "published": null,
-      "updated": "2026-05-11T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "“Captured at Sea”: Maritime Conflict and the Circulation of Art in Early Modern Britain",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10256?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10256",
-      "published": null,
-      "updated": "2026-06-15T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Patrick Gleeson. Landscapes of Kingship in Early Medieval Ireland AD 400–1150 Dublin: Four Courts Press, 2025. Pp. 388. $65.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10232?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10232",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Tim Thornton, Harold Mytum, and Michael Hoy, eds. The Isle of Man, 1405-1830 – Political and Constitutional History. A New History of the Isle of Man 4, Part 1\n Woodbridge: The Boydell Press, 2025. Pp. 360. $170 (cloth). - Tim Thornton, Harold Mytum, and Michael Hoy, eds. The Isle of Man, 1405-1830 – Social and Economic History. A New History of the Isle of Man 4, Part 2 Woodbridge: The Boydell Press, 2025. Pp. 478. $190 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10230?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10230",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Robin Frame. Plantagenet Ireland Dublin: Four Courts Press, 2022. Pp. 384. $74.95 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10259?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10259",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Ruth Ahnert and Sebastian E. Ahnert. Tudor Networks of Power Oxford: Oxford University Press, 2023. Pp 265. $45.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10227?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10227",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Elizabeth Goldring. Holbein, Renaissance Master New Haven, CT, and London: Paul Mellon Centre for Studies in British Art/Yale University Press, 2026. Pp. 417. $50.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10263?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10263",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Joanna Crosby. Apples and Orchards since the Eighteenth Century: Material Innovation and Cultural Tradition Food in Modern History: Traditions and Innovations. London: Bloomsbury Academic, 2024. Pp. 228. $115.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10200?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10200",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Kathleen Lubey. What Pornography Knows: Sex and Social Protest since the Eighteenth Century Redwood City: Stanford University Press, 2022. Pp. 312. $28.00 (paper).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10198?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10198",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Sophie Vasset. Murky Waters: British Spas in Eighteenth-Century Medicine and Literature Seventeenth- and Eighteenth-Century Studies Series. Manchester: Manchester University Press, 2022. Pp. 290. $36.95 (paper).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10211?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10211",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Nora Gilbert. Gone Girls, 1684–1901: Flights of Feminine Resistance in the Eighteenth- and Nineteenth-Century British Novel Approaches to the Novel Series. Oxford: Oxford University Press, 2023. Pp. 225. $85.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10203?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10203",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Steven King. Fraudulent Lives. Imagining Welfare Cheats from the Poor Law to the Present Montreal: McGill-Queen’s University Press, 2024. Pp. 349. $110.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10245?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10245",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Gemma Almond-Brown. Spectacles and the Victorians: Measuring, Defining, and Shaping Visual Capacity Social Histories of Medicine. Manchester: Manchester University Press, 2023. Pp. 296. $130.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10220?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10220",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Joshua G. Stuart-Bennett. Motherhood, Respectability and Baby-Farming in Victorian and Edwardian London Routledge Studies in Crime and Society. London: Routledge, 2023. Pp. 160. $54.99 (paper).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10242?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10242",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Ben Bethell. “Star Men” in England Convict Prisons, 1879–1948 Routledge SOLON Explorations in Crime and Criminal Justice Histories. Abingdon: Routledge, 2023. Pp. 240. $170.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10261?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10261",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Simeon Koole. Intimate Subjects: Touch and Tangibility in Britain's Cerebral Age Chicago: The University of Chicago Press. 2024. Pp. 328. $35.00 (paper).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10244?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10244",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Debra Ramsay. Archives of War: Technology, Emotion and History Media, War and Security. Abingdon: Routledge, 2024. Pp. 246. $144.00 (cloth).",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10250?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10250",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Michael James. Poetry and Strikes: Trade Union Narratives and Legacies Liverpool: Liverpool University Press. Pp. 160. $110.00 (cloth)",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10152?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10152",
-      "published": null,
-      "updated": "2026-06-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Michelle Tusan. The Last Treaty: Lausanne and the End of the First World War in the Middle East Cambridge: Cambridge University Press, 2023. Pp. 348. $39.99 (cloth)",
-      "url": "https://dx.doi.org/10.1017/jbr.2025.10156?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2025.10156",
-      "published": null,
-      "updated": "2026-06-26T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "FORUM: 1776. Views from the British World: The Death of William Pitt and British Patriotism",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10274?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10274",
-      "published": null,
-      "updated": "2026-07-21T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "FORUM: 1776. Views from the British World. The Declaration of Independence through Jewish Eyes: The American Revolution as a Site for Self-Making",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10275?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10275",
-      "published": null,
-      "updated": "2026-07-13T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Killer Dust in the Classroom: Asbestos in Schools and the Urban-Environmental Politics of Risk in 1980s London",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10270?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10270",
-      "published": null,
-      "updated": "2026-07-17T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "FORUM: 1776. Views from the British World: From Secession to Status: 1776 and the Politics of Subordinate Sovereignty in the British World",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10276?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10276",
-      "published": null,
-      "updated": "2026-07-22T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of British Studies",
-      "journal_id": "j032",
-      "title": "Weaponizing Death: Harassing the Clergy in Thirteenth-Century England",
-      "url": "https://dx.doi.org/10.1017/jbr.2026.10272?rft_dat=source%3Ddrss",
-      "doi": "10.1017/jbr.2026.10272",
-      "published": null,
-      "updated": "2026-08-10T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Charting Authority after Empire: Documentary Culture and Political Legitimacy in Post-Carolingian Europe",
-      "url": "https://dx.doi.org/10.1017/S0080440125000052?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125000052",
-      "published": null,
-      "updated": "2025-03-24T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "The Relativity of fides: Faith Language, Commerce and Interreligious Trust in the Crown of Aragon, c. 1240–1350",
-      "url": "https://dx.doi.org/10.1017/S0080440125100273?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100273",
-      "published": null,
-      "updated": "2025-07-21T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "An Indian Jewish Commandant and a Muslim Begum",
-      "url": "https://dx.doi.org/10.1017/S0080440124000197?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440124000197",
-      "published": null,
-      "updated": "2024-12-12T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "‘One of the most alarming casualties to which the Sailor is exposed’: British Naval Medicine, Embodied Knowledge, and the Experience of Lightning at Sea, 1750–1840",
-      "url": "https://dx.doi.org/10.1017/S0080440124000252?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440124000252",
-      "published": null,
-      "updated": "2025-01-30T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Incomplete Infrastructure: State-Building and the Early History of China’s Long-Distance Telephone Network, 1900–1937",
-      "url": "https://dx.doi.org/10.1017/S0080440125000027?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125000027",
-      "published": null,
-      "updated": "2025-02-03T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Universal in Scope and Appeal? The Politics of ‘National’ vs ‘International’ Opera at Post-war Covent Garden",
-      "url": "https://dx.doi.org/10.1017/S0080440125100194?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100194",
-      "published": null,
-      "updated": "2025-07-07T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "The British State–Private Network and Way of Life Propaganda at the Anglo-Soviet Trade Fairs of 1961",
-      "url": "https://dx.doi.org/10.1017/S0080440125100182?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100182",
-      "published": null,
-      "updated": "2025-06-26T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Written Out of History: Collective Reflection with Oral History Narrators on Pakistan’s Women Constitution-Makers",
-      "url": "https://dx.doi.org/10.1017/S0080440124000240?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440124000240",
-      "published": null,
-      "updated": "2025-01-13T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "‘Exhibit Asia’ and its Deconstruction through Collaborative Online Learning",
-      "url": "https://dx.doi.org/10.1017/S0080440125000040?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125000040",
-      "published": null,
-      "updated": "2025-03-04T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Digitised Sources, Materiality and ‘Interim Archives’: Archive Encounters in Asia and the United Kingdom",
-      "url": "https://dx.doi.org/10.1017/S0080440125000076?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125000076",
-      "published": null,
-      "updated": "2025-04-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Labour Pains: Mothers and Motherhood on the British Left in the Twentieth Century",
-      "url": "https://dx.doi.org/10.1017/S0080440124000161?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440124000161",
-      "published": null,
-      "updated": "2025-01-23T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "The Future of (Environmental) History: A Roundtable Discussion",
-      "url": "https://dx.doi.org/10.1017/S0080440125100285?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100285",
-      "published": null,
-      "updated": "2025-07-17T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "What is Digital Global History Now?",
-      "url": "https://dx.doi.org/10.1017/S0080440125000064?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125000064",
-      "published": null,
-      "updated": "2025-03-24T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Parliamentary Culture and Indigenous Traditions of Assembly in the Americas and South and East Asia, c.1500–1700: Comparative Perspectives",
-      "url": "https://dx.doi.org/10.1017/S008044012510025X?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s008044012510025x",
-      "published": null,
-      "updated": "2025-07-10T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Representative Institutions and Parliamentary Culture in the Portuguese and Spanish Empires (c. 1500–c. 1700)",
-      "url": "https://dx.doi.org/10.1017/S0080440125100212?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100212",
-      "published": null,
-      "updated": "2025-07-10T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Traditions of Assembly in three Dutch ‘Lands’ in the Seventeenth Century",
-      "url": "https://dx.doi.org/10.1017/S0080440125100236?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100236",
-      "published": null,
-      "updated": "2025-07-10T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "The First General Assembly of Virginia: Deerskin, Ruffs and the View from Tsenacommacah",
-      "url": "https://dx.doi.org/10.1017/S0080440125100200?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100200",
-      "published": null,
-      "updated": "2025-07-10T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "Indigenous Alliances in the Dutch–Portuguese Wars in Brazil: Native Petitions and the 1645 Potiguara Assembly",
-      "url": "https://dx.doi.org/10.1017/S0080440125100224?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125100224",
-      "published": null,
-      "updated": "2025-07-10T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Transactions of the Royal Historical Society",
-      "journal_id": "j035",
-      "title": "RETRACTED – ‘More Prussian than the Prussian’? Battlefield Prisoner Killing by British and Canadian Forces on the Western Front, 1914–1918",
-      "url": "https://dx.doi.org/10.1017/S0080440125000015?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0080440125000015",
-      "published": null,
-      "updated": "2025-02-07T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Journal of the History of Economic Thought",
-      "journal_id": "j039",
-      "title": "JHET INTERVIEWS: SUSAN HOWSON",
-      "url": "https://dx.doi.org/10.1017/S1053837225100862?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s1053837225100862",
-      "published": null,
-      "updated": "2025-10-16T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Law and History Review",
-      "journal_id": "j040",
-      "title": "Pro Bono Pacis et Concordie: Arbitration in English Ecclesiastical Courts in the Late Middle Ages",
-      "url": "https://dx.doi.org/10.1017/S0738248025101375?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0738248025101375",
-      "published": null,
-      "updated": "2025-11-19T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Law and History Review",
-      "journal_id": "j040",
-      "title": "The Trauma of Constitutions: Criminalising the Past in Italy and India",
-      "url": "https://dx.doi.org/10.1017/S0738248025101363?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0738248025101363",
-      "published": null,
-      "updated": "2025-10-30T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Law and History Review",
-      "journal_id": "j040",
-      "title": "Beyond State/Market: Usury Law in Late-Ming China",
-      "url": "https://dx.doi.org/10.1017/S0738248025101259?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0738248025101259",
-      "published": null,
-      "updated": "2025-11-12T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Law and History Review",
-      "journal_id": "j040",
-      "title": "Miranda Spieler , Slaves in Paris: Hidden Lives and Fugitive Histories, Cambridge: Harvard University Press, 2025. Pp. [xi] + 242. $39.95 (ISBN 9780674986541).",
-      "url": "https://dx.doi.org/10.1017/S0738248025101387?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0738248025101387",
-      "published": null,
-      "updated": "2025-12-10T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Modern Intellectual History",
-      "journal_id": "j041",
-      "title": "William Godwin on Democracy: The Time-Regime of Political Thought in the Age of Revolutions",
-      "url": "https://dx.doi.org/10.1017/S1479244325100280?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s1479244325100280",
-      "published": null,
-      "updated": "2025-10-28T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Modern Intellectual History",
-      "journal_id": "j041",
-      "title": "The Political Unbound: Conservative Arab Thought after Islam",
-      "url": "https://dx.doi.org/10.1017/S1479244325100267?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s1479244325100267",
-      "published": null,
-      "updated": "2025-11-03T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "Modern Intellectual History",
-      "journal_id": "j041",
-      "title": "Republican Revivals",
-      "url": "https://dx.doi.org/10.1017/S147924432510005X?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s147924432510005x",
-      "published": null,
-      "updated": "2025-09-16T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Editorial Foreword",
-      "url": "https://dx.doi.org/10.1017/S0021911822001218?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001218",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Sinophone Classicism: Chineseness as Temporal and Mnemonic Experience in the Digital Era",
-      "url": "https://dx.doi.org/10.1017/S0021911822000596?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822000596",
-      "published": null,
-      "updated": "2022-06-17T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Precarity's Pirate: The Fictive Afterlives of Idemitsu Sazō",
-      "url": "https://dx.doi.org/10.1017/S0021911822000547?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822000547",
-      "published": null,
-      "updated": "2022-06-07T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "A Hindu Champion of Pan-Islamism: Lajpat Rai and the Khilafat Movement",
-      "url": "https://dx.doi.org/10.1017/S0021911822000511?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822000511",
-      "published": null,
-      "updated": "2022-04-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Reimagining the Public Sphere: Commensurability and Communicative Rationality under Colonialism",
-      "url": "https://dx.doi.org/10.1017/S0021911822001188?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001188",
-      "published": null,
-      "updated": "2022-09-05T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "The December 12th Student Movement: Uyghur Student Protest in Reform-Era China",
-      "url": "https://dx.doi.org/10.1017/S0021911822001206?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001206",
-      "published": null,
-      "updated": "2022-10-24T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Disenfranchised: The Rise and Fall of Industrial Citizenship in China By Joel Andreas. Oxford: Oxford University Press, 2019. 320 pp. ISBN: 9780190052614 (paper).",
-      "url": "https://dx.doi.org/10.1017/S002191182200122X?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s002191182200122x",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Terror Capitalism: Uyghur Dispossession and Masculinity in a Chinese City By Darren Byler. Durham, N.C.: Duke University Press, 2022. 269 pp. ISBN: 9781478017646 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001231?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001231",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Nursing Shifts in Sichuan: Canadian Missions and Wartime China, 1937–51 By Sonya Grypma. Vancouver: University of British Columbia Press, 2021. xxvi, 387 pp. ISBN: 9780774865722 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001243?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001243",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Imagined Geographies: The Maritime Silk Roads in World History, 100–1800 By Geoffrey C. Gunn. Hong Kong: Hong Kong University Press, 2021. ix, 312 pp. ISBN: 9789888528653 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001255?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001255",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "The Perils of Interpreting: The Extraordinary Lives of Two Translators between Qing China and the British Empire By Henrietta Harrison. Princeton, N.J.: Princeton University Press, 2021. xiv, 341 pp. ISBN: 9780691225456 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001267?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001267",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "The Making of Song Dynasty History: Sources and Narratives, 960–1279 CE By Charles Hartman. New York: Cambridge University Press, 2021. xv, 377 pp. ISBN: 9781108834834 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001279?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001279",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "In the Forest of the Blind: The Eurasian Journey of Faxian's Record of Buddhist Kingdoms By Matthew W. King. New York: Columbia University Press, 2022. xviii, 294 pp. ISBN: 9780231203616 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001280?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001280",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Celestial Masters: History and Ritual in Early Daoist Communities By Terry F. Kleeman. Cambridge, Mass.: Harvard University Asia Center, 2021. xiii, 425 pp. ISBN: 9780674737167 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001292?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001292",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "The Yellow River: A Natural and Unnatural History By Ruth Mostern. New Haven, Conn.: Yale University Press, 2021. xiii, 326 pp. ISBN: 9780300238334 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001309?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001309",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Mongol Caucasia: Invasions, Conquest, and Government of a Frontier Region in Thirteenth-Century Eurasia (1204–1295) By Lorenzo Pubblici, translated by Andrew Smaldone. Leiden: Brill, 2022. xvi, 265 pp. ISBN: 9789004503526 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001310?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001310",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "How China Escaped Shock Therapy: The Market Reform Debate By Isabella M. Weber. New York: Routledge Press, 2021. xxx, 342 pp. ISBN: 9781138592193 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001322?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001322",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "If I Had Your Face By Frances Cha. New York: Ballantine Books, 2021. 268 pp. ISBN: 9780593129487 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001334?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001334",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Climatic Media: Transpacific Experiments in Atmospheric Control By Yuriko Furuhata. Durham, N.C.: Duke University Press, 2022. x, 246 pp. ISBN: 9781478017806 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001346?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001346",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Dancing the Dharma: Religious and Political Allegory in Japanese Noh Theater By Susan Blakely Klein. Cambridge, Mass.: Harvard University Asia Center, 2021. xvi, 401 pp. ISBN: 9780674247840 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001358?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001358",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "William Franklin Sands in Late Chosŏn Korea: At the Deathbed of Empire, 1896–1904 By Wayne Patterson. Lanham, Md.: Lexington Books, 2021. ix, 161 pp. ISBN: 9781793649270 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S002191182200136X?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s002191182200136x",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Korea and the Fall of the Mongol Empire: Alliance, Upheaval, and the Rise of a New East Asian Order By David M. Robinson. Cambridge: Cambridge University Press, 2022. xvii, 327 pp. ISBN: 9781009098960 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001371?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001371",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Empire and Intellectuals in Early Seventeenth-Century South Asia - Pouvoir impérial et élites dans l'Inde moghole de Jahangir, 1605–1627 By Corinne Lefèvre. Paris: Les Indes Savantes, 2018. 506 pp. ISBN: 9782846544740 (paper). - Translating Wisdom: Hindu-Muslim Intellectual Interactions in Early Modern South Asia By Shankar Nair. Berkeley: University of California Press, 2020. xiv, 259 pp. ISBN: 9780520345683 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001383?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001383",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Christianity and Politics in Tribal India: Baptist Missionaries and Naga Nationalism By G. Kanato Chophy. Albany: State University of New York Press, 2021. 460 pp. ISBN: 9781438485812 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001395?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001395",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "The Thief Who Stole My Heart: The Material Life of Chola Bronzes from South India, c. 855–1280 By Vidya Dehejia. Princeton, N.J.: Princeton University Press, 2021. 336 pp. ISBN: 9780691202594 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001401?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001401",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "India and Asian Geopolitics: The Past, Present By Shivshankar Menon. Washington, D.C.: Brookings Institution Press, 2021. 416 pp. ISBN: 9780815737230 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001413?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001413",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Sisters in the Mirror: A History of Muslim Women and the Global Politics of Feminism By Elora Shehabuddin. Oakland: University of California Press, 2021. ix, 398 pp. ISBN: 9780520342514 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001425?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001425",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Les envers de la métropolisation: Les ruelles de Hồ Chí Minh Ville, Vietnam By Marie Gibert-Flutre. Paris: CNRS Editions, 2019. 243 pp. ISBN: 9782271121530 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001437?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001437",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "A History of Manners and Civility in Thailand By Patrick Jory. Cambridge: Cambridge University Press, 2021. x, 269 pp. ISBN: 9781108868006 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001449?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001449",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Miracles and Material Life: Rice, Ore, Traps and Guns in Islamic Malaya By Teren Sevea. Cambridge: Cambridge University Press, 2020. xxviii, 262 pp. ISBN: 9781108477185 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001450?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001450",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "United Front: Projecting Solidarity through Deliberation in Vietnam's Single-Party Legislature By Paul Schuler. Stanford, Calif.: Stanford University Press, 2021. 272 pp. ISBN: 9781503614741 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001462?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001462",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Republicanism, Communism, Islam: Cosmopolitan Origins of Revolution in Southeast Asia By John T. Sidel. Ithaca, N.Y.: Cornell University Press, 2021. xii, 309 pp. ISBN: 9781501755613 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001474?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001474",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Constitutional Change in the Contemporary Socialist World By Bui Ngoc Son. Oxford: Oxford University Press, 2020. 366 pp. ISBN: 9780198851349 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001486?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001486",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Fluid Jurisdictions: Colonial Law and Arabs in Southeast Asia By Nurfadzilah Yahaya. Ithaca, N.Y.: Cornell University Press, 2020. xi, 251 pp. ISBN: 9781501750878 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001498?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001498",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "China and Russia: Shared Borderlands and Cultural Divide - Internationalist Aesthetics: China and Early Soviet Culture By Edward Tyerman. New York: Columbia University Press, 2021. 368 pp. ISBN: 9780231199193 (paper). - On the Edge: Life along the Russia-China Border By Franck Billé and Caroline Humphrey. Cambridge, Mass.: Harvard University Press, 2021. 400 pp. ISBN: 9780674979482 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001504?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001504",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Eurasia without Borders: The Dream of a Leftist Literary Commons, 1919–1943 By Katerina Clark. Cambridge, Mass.: Belknap Press of Harvard University Press, 2021. 448 pp. ISBN: 9780674261105.",
-      "url": "https://dx.doi.org/10.1017/S0021911822001516?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001516",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Green with Milk and Sugar: When Japan Filled America's Tea Cups By Robert Hellyer. New York: Columbia University Press, 2021. 304 pp. ISBN: 9780231199100 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001528?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001528",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Central Asia: A New History from the Imperial Conquests to the Present By Adeeb Khalid. Princeton, N.J.: Princeton University Press, 2021. 556 pp. ISBN: 9780691161396 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S002191182200153X?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s002191182200153x",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Eurasian Crossroads: A History of Xinjiang, Revised and Updated Edition By James A. Millward. New York: Columbia University Press, 2021. ISBN: 9780231204545 (cloth).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001541?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001541",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Anime's Identity: Performativity and Form beyond Japan By Stevie Suan. Minneapolis: University of Minnesota Press, 2021. 384 pp. ISBN: 9781517911782 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001553?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001553",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    },
-    {
-      "journal": "The Journal of Asian Studies",
-      "journal_id": "j042",
-      "title": "Empire of Convicts: Indian Penal Labor in Colonial Southeast Asia By Anand A. Yang. Oakland: University of California Press, 2021. 277 pp. ISBN: 978052094561 (paper).",
-      "url": "https://dx.doi.org/10.1017/S0021911822001565?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0021911822001565",
-      "published": null,
-      "updated": "2022-11-25T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null
-    }
-  ],
+  "generated_at": "2026-09-21T20:35:56.554968+00:00",
+  "new_count": 0,
+  "candidate_count": 1015,
+  "articles": [],
   "source_stats": {
     "j001": 10,
     "j002": 50,
@@ -1383,14 +38,14 @@
     "j032": 184,
     "j033": 22,
     "j034": 48,
-    "j035": 54,
+    "j035": 36,
     "j036": 6,
     "j037": 22,
     "j038": 28,
     "j039": 12,
     "j040": 32,
     "j041": 24,
-    "j042": 82,
+    "j042": 0,
     "j043": 39,
     "j044": 0,
     "j045": 21,
@@ -1433,397 +88,559 @@
     "j001": {
       "issue": false,
       "advance": false,
-      "records": 10
+      "records": 10,
+      "raw_records": 10,
+      "stale_rejected": 0
     },
     "j002": {
       "issue": false,
       "advance": false,
-      "records": 50
+      "records": 50,
+      "raw_records": 50,
+      "stale_rejected": 0
     },
     "j003": {
       "issue": false,
       "advance": false,
-      "records": 24
+      "records": 24,
+      "raw_records": 24,
+      "stale_rejected": 0
     },
     "j004": {
       "issue": false,
       "advance": false,
-      "records": 15
+      "records": 15,
+      "raw_records": 15,
+      "stale_rejected": 0
     },
     "j005": {
       "issue": false,
       "advance": false,
-      "records": 50
+      "records": 50,
+      "raw_records": 50,
+      "stale_rejected": 0
     },
     "j006": {
       "issue": false,
       "advance": false,
-      "records": 8
+      "records": 8,
+      "raw_records": 8,
+      "stale_rejected": 0
     },
     "j007": {
       "issue": false,
       "advance": false,
-      "records": 17
+      "records": 17,
+      "raw_records": 17,
+      "stale_rejected": 0
     },
     "j008": {
       "issue": false,
       "advance": false,
-      "records": 10
+      "records": 10,
+      "raw_records": 10,
+      "stale_rejected": 0
     },
     "j009": {
       "issue": false,
       "advance": false,
-      "records": 7
+      "records": 7,
+      "raw_records": 7,
+      "stale_rejected": 0
     },
     "j010": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j011": {
       "issue": false,
       "advance": false,
-      "records": 13
+      "records": 13,
+      "raw_records": 13,
+      "stale_rejected": 0
     },
     "j012": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j013": {
       "issue": false,
       "advance": false,
-      "records": 8
+      "records": 8,
+      "raw_records": 8,
+      "stale_rejected": 0
     },
     "j014": {
       "issue": false,
       "advance": false,
-      "records": 10
+      "records": 10,
+      "raw_records": 10,
+      "stale_rejected": 0
     },
     "j015": {
       "issue": false,
       "advance": false,
-      "records": 13
+      "records": 13,
+      "raw_records": 13,
+      "stale_rejected": 0
     },
     "j016": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j017": {
       "issue": false,
       "advance": false,
-      "records": 6
+      "records": 6,
+      "raw_records": 6,
+      "stale_rejected": 0
     },
     "j018": {
       "issue": false,
       "advance": false,
-      "records": 13
+      "records": 13,
+      "raw_records": 13,
+      "stale_rejected": 0
     },
     "j019": {
       "issue": true,
       "advance": true,
-      "records": 20
+      "records": 20,
+      "raw_records": 24,
+      "stale_rejected": 0
     },
     "j020": {
       "issue": true,
       "advance": true,
-      "records": 30
+      "records": 30,
+      "raw_records": 34,
+      "stale_rejected": 0
     },
     "j021": {
       "issue": true,
       "advance": true,
-      "records": 16
+      "records": 16,
+      "raw_records": 16,
+      "stale_rejected": 0
     },
     "j022": {
       "issue": true,
       "advance": true,
-      "records": 16
+      "records": 16,
+      "raw_records": 16,
+      "stale_rejected": 0
     },
     "j023": {
       "issue": true,
       "advance": true,
-      "records": 16
+      "records": 16,
+      "raw_records": 20,
+      "stale_rejected": 0
     },
     "j024": {
       "issue": true,
       "advance": true,
-      "records": 46
+      "records": 46,
+      "raw_records": 64,
+      "stale_rejected": 0
     },
     "j025": {
       "issue": true,
       "advance": true,
-      "records": 50
+      "records": 50,
+      "raw_records": 64,
+      "stale_rejected": 0
     },
     "j026": {
       "issue": true,
       "advance": true,
-      "records": 20
+      "records": 20,
+      "raw_records": 20,
+      "stale_rejected": 0
     },
     "j027": {
       "issue": true,
       "advance": true,
-      "records": 8
+      "records": 8,
+      "raw_records": 8,
+      "stale_rejected": 0
     },
     "j028": {
       "issue": true,
       "advance": true,
-      "records": 28
+      "records": 28,
+      "raw_records": 30,
+      "stale_rejected": 0
     },
     "j029": {
       "issue": true,
       "advance": true,
-      "records": 28
+      "records": 28,
+      "raw_records": 32,
+      "stale_rejected": 0
     },
     "j030": {
       "issue": false,
       "advance": false,
-      "records": 3
+      "records": 3,
+      "raw_records": 3,
+      "stale_rejected": 0
     },
     "j031": {
       "issue": true,
       "advance": true,
-      "records": 34
+      "records": 34,
+      "raw_records": 34,
+      "stale_rejected": 0
     },
     "j032": {
       "issue": true,
       "advance": true,
-      "records": 184
+      "records": 184,
+      "raw_records": 184,
+      "stale_rejected": 0
     },
     "j033": {
       "issue": true,
       "advance": true,
-      "records": 22
+      "records": 22,
+      "raw_records": 22,
+      "stale_rejected": 0
     },
     "j034": {
       "issue": true,
       "advance": true,
-      "records": 48
+      "records": 48,
+      "raw_records": 52,
+      "stale_rejected": 0
     },
     "j035": {
       "issue": true,
       "advance": true,
-      "records": 54
+      "records": 36,
+      "raw_records": 64,
+      "stale_rejected": 18
     },
     "j036": {
       "issue": false,
       "advance": false,
-      "records": 6
+      "records": 6,
+      "raw_records": 6,
+      "stale_rejected": 0
     },
     "j037": {
       "issue": true,
       "advance": true,
-      "records": 22
+      "records": 22,
+      "raw_records": 22,
+      "stale_rejected": 0
     },
     "j038": {
       "issue": true,
       "advance": true,
-      "records": 28
+      "records": 28,
+      "raw_records": 38,
+      "stale_rejected": 0
     },
     "j039": {
       "issue": true,
       "advance": true,
-      "records": 12
+      "records": 12,
+      "raw_records": 26,
+      "stale_rejected": 0
     },
     "j040": {
       "issue": true,
       "advance": true,
-      "records": 32
+      "records": 32,
+      "raw_records": 42,
+      "stale_rejected": 0
     },
     "j041": {
       "issue": true,
       "advance": true,
-      "records": 24
+      "records": 24,
+      "raw_records": 24,
+      "stale_rejected": 0
     },
     "j042": {
       "issue": true,
       "advance": true,
-      "records": 82
+      "records": 0,
+      "raw_records": 86,
+      "stale_rejected": 82
     },
     "j043": {
       "issue": false,
       "advance": false,
-      "records": 39
+      "records": 39,
+      "raw_records": 39,
+      "stale_rejected": 0
     },
     "j044": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j045": {
       "issue": false,
       "advance": false,
-      "records": 21
+      "records": 21,
+      "raw_records": 21,
+      "stale_rejected": 0
     },
     "j046": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j047": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j048": {
       "issue": false,
       "advance": false,
-      "records": 13
+      "records": 13,
+      "raw_records": 13,
+      "stale_rejected": 0
     },
     "j049": {
       "issue": false,
       "advance": false,
-      "records": 14
+      "records": 14,
+      "raw_records": 14,
+      "stale_rejected": 0
     },
     "j050": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j051": {
       "issue": false,
       "advance": false,
-      "records": 18
+      "records": 18,
+      "raw_records": 18,
+      "stale_rejected": 0
     },
     "j052": {
       "issue": false,
       "advance": false,
-      "records": 14
+      "records": 14,
+      "raw_records": 14,
+      "stale_rejected": 0
     },
     "j053": {
       "issue": false,
       "advance": false,
-      "records": 9
+      "records": 9,
+      "raw_records": 9,
+      "stale_rejected": 0
     },
     "j054": {
       "issue": false,
       "advance": false,
-      "records": 5
+      "records": 5,
+      "raw_records": 5,
+      "stale_rejected": 0
     },
     "j055": {
       "issue": false,
       "advance": false,
-      "records": 26
+      "records": 26,
+      "raw_records": 26,
+      "stale_rejected": 0
     },
     "j056": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j057": {
       "issue": false,
       "advance": false,
-      "records": 6
+      "records": 6,
+      "raw_records": 6,
+      "stale_rejected": 0
     },
     "j058": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j059": {
       "issue": false,
       "advance": false,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j060": {
       "issue": false,
       "advance": false,
-      "records": 2
+      "records": 2,
+      "raw_records": 2,
+      "stale_rejected": 0
     },
     "j061": {
       "issue": false,
       "advance": false,
-      "records": 14
+      "records": 14,
+      "raw_records": 14,
+      "stale_rejected": 0
     },
     "j062": {
       "issue": false,
       "advance": false,
-      "records": 4
+      "records": 4,
+      "raw_records": 4,
+      "stale_rejected": 0
     },
     "j063": {
       "issue": false,
       "advance": false,
-      "records": 9
+      "records": 9,
+      "raw_records": 9,
+      "stale_rejected": 0
     },
     "j064": {
       "issue": true,
       "advance": true,
-      "records": 38
+      "records": 38,
+      "raw_records": 38,
+      "stale_rejected": 0
     },
     "j065": {
       "issue": true,
       "advance": true,
-      "records": 13
+      "records": 13,
+      "raw_records": 13,
+      "stale_rejected": 0
     },
     "j066": {
       "issue": true,
       "advance": true,
-      "records": 19
+      "records": 19,
+      "raw_records": 19,
+      "stale_rejected": 0
     },
     "j067": {
       "issue": true,
       "advance": true,
-      "records": 13
+      "records": 13,
+      "raw_records": 13,
+      "stale_rejected": 0
     },
     "j068": {
       "issue": true,
       "advance": true,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j069": {
       "issue": true,
       "advance": true,
-      "records": 6
+      "records": 6,
+      "raw_records": 6,
+      "stale_rejected": 0
     },
     "j070": {
       "issue": true,
       "advance": true,
-      "records": 18
+      "records": 18,
+      "raw_records": 18,
+      "stale_rejected": 0
     },
     "j071": {
       "issue": true,
       "advance": true,
-      "records": 9
+      "records": 9,
+      "raw_records": 9,
+      "stale_rejected": 0
     },
     "j072": {
       "issue": true,
       "advance": true,
-      "records": 6
+      "records": 6,
+      "raw_records": 6,
+      "stale_rejected": 0
     },
     "j073": {
       "issue": true,
       "advance": true,
-      "records": 7
+      "records": 7,
+      "raw_records": 7,
+      "stale_rejected": 0
     },
     "j074": {
       "issue": true,
       "advance": true,
-      "records": 3
+      "records": 3,
+      "raw_records": 3,
+      "stale_rejected": 0
     },
     "j075": {
       "issue": true,
       "advance": true,
-      "records": 14
+      "records": 14,
+      "raw_records": 14,
+      "stale_rejected": 0
     },
     "j076": {
       "issue": true,
       "advance": true,
-      "records": 13
+      "records": 13,
+      "raw_records": 13,
+      "stale_rejected": 0
     },
     "j077": {
       "issue": true,
       "advance": true,
-      "records": 0
+      "records": 0,
+      "raw_records": 0,
+      "stale_rejected": 0
     },
     "j078": {
       "issue": true,
       "advance": true,
-      "records": 20
+      "records": 20,
+      "raw_records": 20,
+      "stale_rejected": 0
     },
     "j079": {
       "issue": true,
       "advance": true,
-      "records": 19
+      "records": 19,
+      "raw_records": 19,
+      "stale_rejected": 0
     }
+  },
+  "quality_control": {
+    "publisher_max_age_days": 540,
+    "stale_records_rejected": 100
   }
 }
