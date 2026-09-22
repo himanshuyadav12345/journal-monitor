@@ -111,7 +111,16 @@ def _date(value):
     return {"date": {"start": value[:10]}}
 
 
+def _as_dict(article):
+    if isinstance(article, dict):
+        return article
+    if hasattr(article, "to_dict"):
+        return article.to_dict()
+    raise TypeError(f"Unsupported article type: {type(article).__name__}")
+
+
 def _page_payload(article):
+    article = _as_dict(article)
     properties = {
         "Title": _title(article.get("title")),
         "Journal": _rich_text(article.get("journal")),
@@ -150,7 +159,8 @@ def sync_articles(articles):
     added = 0
     skipped = 0
 
-    for article in articles:
+    for raw_article in articles:
+        article = _as_dict(raw_article)
         doi = (article.get("doi") or "").strip().lower()
         url = (article.get("url") or "").strip()
         title = (article.get("title") or "").strip().lower()
