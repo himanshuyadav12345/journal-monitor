@@ -2216,10 +2216,10 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5418/3279.xml"
         },
         "advance": {
-          "feed_url": null
+          "feed_url": "https://academic.oup.com/rss/site_5418/advanceAccess_3279.xml"
         },
         "fallback": [
           "crossref",
