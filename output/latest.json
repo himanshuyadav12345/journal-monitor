@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-09-22T05:30:52.960122+00:00",
-  "new_count": 1,
-  "candidate_count": 1706,
-  "articles": [
-    {
-      "journal": "Settler Colonial Studies",
-      "journal_id": "j065",
-      "title": "Motivations driving settler food movement organizations in Canada to engage with Indigenous peoples",
-      "url": "https://doi.org/10.1080/2201473x.2026.2735144",
-      "doi": "10.1080/2201473x.2026.2735144",
-      "published": "2026-09-21T00:00:00",
-      "updated": "2026-09-22T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref:online_first",
-      "issue": null,
-      "stage": "online_first"
-    }
-  ],
+  "generated_at": "2026-09-22T05:38:43.013638+00:00",
+  "new_count": 0,
+  "candidate_count": 1712,
+  "articles": [],
   "source_stats": {
     "j001": 10,
     "j002": 56,
@@ -47,7 +33,7 @@
     "j027": 8,
     "j028": 28,
     "j029": 28,
-    "j030": 3,
+    "j030": 18,
     "j031": 34,
     "j032": 184,
     "j033": 22,
@@ -308,11 +294,11 @@
       "stale_rejected": 0
     },
     "j030": {
-      "issue": false,
-      "advance": false,
-      "records": 3,
-      "raw_records": 3,
-      "stale_rejected": 0
+      "issue": true,
+      "advance": true,
+      "records": 18,
+      "raw_records": 26,
+      "stale_rejected": 8
     },
     "j031": {
       "issue": true,
@@ -350,7 +336,7 @@
       "stale_rejected": 18
     },
     "j036": {
-      "issue": false,
+      "issue": true,
       "advance": false,
       "records": 6,
       "raw_records": 6,
@@ -740,6 +726,6 @@
   },
   "quality_control": {
     "publisher_max_age_days": 540,
-    "stale_records_rejected": 161
+    "stale_records_rejected": 169
   }
 }
