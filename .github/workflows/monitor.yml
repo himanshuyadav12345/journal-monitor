@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
+    inputs:
+      populate_notion:
+        description: "Populate Notion with all current journal records (one-time baseline)"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -25,6 +31,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run journal monitor
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_BASELINE: ${{ inputs.populate_notion }}
+          NOTION_DATA_SOURCE_ID: "3e264599-6a8c-80a0-9550-000b851d0067"
         run: python -m monitor.main
       - name: Commit updated state and output
         run: |
