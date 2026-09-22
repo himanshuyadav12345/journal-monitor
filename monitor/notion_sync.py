@@ -119,10 +119,10 @@ def _page_payload(article):
         "DOI": _rich_text(article.get("doi")),
         "Source": _rich_text(article.get("source")),
         "Stage": {"select": {"name": "Online First" if article.get("stage") == "online_first" else "Issue"}},
-        "userDefined:URL": {"url": article.get("url")} if article.get("url") else {"url": None},
+        "URL": {"url": article.get("url")} if article.get("url") else {"url": None},
     }
     published = _date(article.get("published"))
-    detected = _date(article.get("detected"))
+    detected = _date(article.get("detected") or datetime.now(timezone.utc).date().isoformat())
     if published:
         properties["Published"] = published
     if detected:
