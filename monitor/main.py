@@ -1,4 +1,4 @@
-import csv,json
+import csv,json,os
 from datetime import datetime,timezone
 from pathlib import Path
 from monitor.filters import keep_article
@@ -7,6 +7,7 @@ from monitor.sources.crossref import fetch_crossref, classify_tandf_crossref
 from monitor.sources.rss import fetch_rss
 from monitor.sources.discovery import discover_feeds
 from monitor.quality import keep_fresh
+from monitor.notion_sync import sync_articles
 
 ROOT=Path(__file__).resolve().parents[1]
 CONFIG=ROOT/"config/journals.json"; SEEN=ROOT/"data/seen.json"
@@ -65,8 +66,9 @@ def main():
     if SEEN.exists():
         try: seen=set(json.loads(SEEN.read_text(encoding="utf-8")))
         except Exception: pass
+    baseline=os.getenv("NOTION_BASELINE","").lower()=="true"
     new=[a for k,a in unique.items() if k not in seen]
-    seen.update(article_key(a) for a in new)
+    to_notion=list(unique.values()) if baseline else new
     OUT_JSON.parent.mkdir(parents=True,exist_ok=True)
     OUT_JSON.write_text(json.dumps({
         "generated_at":datetime.now(timezone.utc).isoformat(),
@@ -79,6 +81,9 @@ def main():
         fields=["journal","journal_id","title","url","doi","published","updated","item_type","source","issue","stage"]
         w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
         for a in new: w.writerow(a.to_dict())
+    if os.getenv("NOTION_TOKEN"):
+        sync_articles(to_notion)
+    seen.update(article_key(a) for a in new)
     SEEN.parent.mkdir(parents=True,exist_ok=True)
     SEEN.write_text(json.dumps(sorted(seen),ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"Journals checked: {len(journals)}")
