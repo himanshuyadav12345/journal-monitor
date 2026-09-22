@@ -1222,7 +1222,7 @@
         "print": "0147-5479",
         "online": "1471-6445"
       },
-      "homepage": "https://www.cambridge.org/core/journals/international-labour-and-working-class-history",
+      "homepage": "https://www.cambridge.org/core/journals/international-labor-and-working-class-history",
       "monitoring": {
         "issue": {
           "method": "publisher_or_crossref"
@@ -1475,7 +1475,7 @@
       },
       "sources": {
         "issue": {
-          "feed_url": null
+          "feed_url": "https://www.cambridge.org/core/rss/product/id/A221FD6CDA29B2D66BB2B58D6BE11571"
         },
         "advance": {
           "feed_url": null
