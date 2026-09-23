@@ -1,8 +1,152 @@
 {
-  "generated_at": "2026-09-22T09:40:10.215935+00:00",
-  "new_count": 0,
-  "candidate_count": 1810,
-  "articles": [],
+  "generated_at": "2026-09-23T09:46:16.478275+00:00",
+  "new_count": 11,
+  "candidate_count": 1817,
+  "articles": [
+    {
+      "journal": "Socio-Economic Review",
+      "journal_id": "j007",
+      "title": "The curious genealogy of stranded assets: how deregulation debates invented ‘stranding’",
+      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag051/8829120?rss=1",
+      "doi": "10.1093/ser/mwag051",
+      "published": "2026-09-23T00:00:00+00:00",
+      "updated": "2026-09-23T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:advance",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "Socio-Economic Review",
+      "journal_id": "j007",
+      "title": "The culture of political connections, financing constraints, and performance: firm-level evidence from Pakistan",
+      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag049/8829119?rss=1",
+      "doi": "10.1093/ser/mwag049",
+      "published": "2026-09-23T00:00:00+00:00",
+      "updated": "2026-09-23T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:advance",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "Studies in Indian Politics",
+      "journal_id": "j053",
+      "title": "Beyond the Production and Consumption of Digital Technologies: The Politics of Inclusion and Exclusion in India’s Labour Markets",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/23210230261483801?ai=2b4&mi=ehikzz&af=R",
+      "doi": "10.1177/23210230261483801",
+      "published": null,
+      "updated": "2026-09-23T04:46:58+00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "Studies in Indian Politics",
+      "journal_id": "j053",
+      "title": "Principles over Politics? A Critical Reading of India AI Governance Framework",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/23210230261483375?ai=2b4&mi=ehikzz&af=R",
+      "doi": "10.1177/23210230261483375",
+      "published": null,
+      "updated": "2026-09-23T04:37:14+00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "Studies in Indian Politics",
+      "journal_id": "j053",
+      "title": "Book review: Trina Vithayathil, Counting Caste: Census Politics and Bureaucratic Deflection",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/23210230261483377?ai=2b4&mi=ehikzz&af=R",
+      "doi": "10.1177/23210230261483377",
+      "published": null,
+      "updated": "2026-09-23T04:30:21+00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "European Review of Economic History",
+      "journal_id": "j054",
+      "title": "Withdrawal of the State: The Provision of Primary Schooling in Mozambique under the Indigenato",
+      "url": "https://academic.oup.com/ereh/advance-article/doi/10.1093/ereh/heag023/8829061?rss=1",
+      "doi": "10.1093/ereh/heag023",
+      "published": "2026-09-22T00:00:00+00:00",
+      "updated": "2026-09-22T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:advance",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "The Journal of Imperial and Commonwealth History",
+      "journal_id": "j064",
+      "title": "By Flesh and Toil: How Sex, Race, and Labor Shaped the Early French Empire",
+      "url": "https://doi.org/10.1080/03086534.2026.2731222",
+      "doi": "10.1080/03086534.2026.2731222",
+      "published": "2026-09-22T00:00:00",
+      "updated": "2026-09-22T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
+    },
+    {
+      "journal": "The Journal of Imperial and Commonwealth History",
+      "journal_id": "j064",
+      "title": "Muddied Waters: Crofter Colonisation and the Contingency of ‘British’ and ‘Scottish’ Whiteness in 1880s New Zealand",
+      "url": "https://doi.org/10.1080/03086534.2026.2708806",
+      "doi": "10.1080/03086534.2026.2708806",
+      "published": "2026-09-22T00:00:00",
+      "updated": "2026-09-22T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
+    },
+    {
+      "journal": "The Journal of Imperial and Commonwealth History",
+      "journal_id": "j064",
+      "title": "Preserving the Empire: Arthur Berriedale Keith and the Indian Constitutional Crisis, 1919–1939",
+      "url": "https://doi.org/10.1080/03086534.2026.2733853",
+      "doi": "10.1080/03086534.2026.2733853",
+      "published": "2026-09-22T00:00:00",
+      "updated": "2026-09-22T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
+    },
+    {
+      "journal": "South Asia: Journal of South Asian Studies",
+      "journal_id": "j079",
+      "title": "Mahadevi’s\n                    <i>Viraha</i>\n                    : Gender, Longing and the Nation",
+      "url": "https://doi.org/10.1080/00856401.2026.2718617",
+      "doi": "10.1080/00856401.2026.2718617",
+      "published": "2026-09-22T00:00:00",
+      "updated": "2026-09-22T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
+    },
+    {
+      "journal": "South Asia: Journal of South Asian Studies",
+      "journal_id": "j079",
+      "title": "The Romantic Nationalist: Aesthetics of\n                    <i>Viraha</i>\n                    in the Poetry of Ambikagiri Raichoudhury",
+      "url": "https://doi.org/10.1080/00856401.2026.2721831",
+      "doi": "10.1080/00856401.2026.2721831",
+      "published": "2026-09-22T00:00:00",
+      "updated": "2026-09-22T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
+    }
+  ],
   "source_stats": {
     "j001": 10,
     "j002": 56,
@@ -10,7 +154,7 @@
     "j004": 19,
     "j005": 234,
     "j006": 8,
-    "j007": 22,
+    "j007": 23,
     "j008": 20,
     "j009": 9,
     "j010": 8,
@@ -56,7 +200,7 @@
     "j050": 0,
     "j051": 18,
     "j052": 69,
-    "j053": 25,
+    "j053": 28,
     "j054": 10,
     "j055": 29,
     "j056": 5,
@@ -67,7 +211,7 @@
     "j061": 14,
     "j062": 4,
     "j063": 10,
-    "j064": 68,
+    "j064": 71,
     "j065": 23,
     "j066": 34,
     "j067": 32,
@@ -81,8 +225,8 @@
     "j075": 28,
     "j076": 27,
     "j077": 6,
-    "j078": 45,
-    "j079": 41
+    "j078": 44,
+    "j079": 42
   },
   "source_availability": {
     "j001": {
@@ -135,8 +279,8 @@
     "j007": {
       "issue": true,
       "advance": true,
-      "records": 22,
-      "raw_records": 22,
+      "records": 23,
+      "raw_records": 23,
       "stale_rejected": 0
     },
     "j008": {
@@ -457,8 +601,8 @@
     "j053": {
       "issue": true,
       "advance": true,
-      "records": 25,
-      "raw_records": 25,
+      "records": 28,
+      "raw_records": 28,
       "stale_rejected": 0
     },
     "j054": {
@@ -535,13 +679,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 68,
-      "raw_records": 68,
+      "records": 71,
+      "raw_records": 71,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 9,
-      "tandf_online_first_records": 59,
-      "crossref_records": 68
+      "tandf_issue_records": 17,
+      "tandf_online_first_records": 54,
+      "crossref_records": 71
     },
     "j065": {
       "issue": false,
@@ -703,25 +847,25 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 45,
-      "raw_records": 45,
+      "records": 44,
+      "raw_records": 44,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 16,
+      "tandf_issue_records": 15,
       "tandf_online_first_records": 29,
-      "crossref_records": 45
+      "crossref_records": 44
     },
     "j079": {
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 41,
-      "raw_records": 41,
+      "records": 42,
+      "raw_records": 42,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 29,
-      "tandf_online_first_records": 12,
-      "crossref_records": 41
+      "tandf_issue_records": 28,
+      "tandf_online_first_records": 14,
+      "crossref_records": 42
     }
   },
   "quality_control": {
