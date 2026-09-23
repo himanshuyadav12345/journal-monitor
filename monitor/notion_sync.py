@@ -9,6 +9,10 @@ DATA_SOURCE_ID = os.getenv(
     "NOTION_DATA_SOURCE_ID",
     "3e264599-6a8c-80a0-9550-000b851d0067",
 )
+JOURNAL_DIRECTORY_DATA_SOURCE_ID = os.getenv(
+    "NOTION_JOURNAL_DIRECTORY_DATA_SOURCE_ID",
+    "3cfd4973-125b-4cf9-ac1c-0163e7d7fec1",
+)
 
 
 class NotionSyncError(RuntimeError):
@@ -119,7 +123,36 @@ def _as_dict(article):
     raise TypeError(f"Unsupported article type: {type(article).__name__}")
 
 
-def _page_payload(article):
+def _journal_directory_pages(token):
+    """Return {journal name: Notion page id} for the Journal Directory."""
+    mapping = {}
+    cursor = None
+    while True:
+        body = {"page_size": 100}
+        if cursor:
+            body["start_cursor"] = cursor
+        data = _request(
+            token,
+            "POST",
+            f"/data_sources/{JOURNAL_DIRECTORY_DATA_SOURCE_ID}/query",
+            json=body,
+        )
+        for page in data.get("results", []):
+            props = page.get("properties", {})
+            name = _property_text(
+                props.get("Journal") or props.get("Name") or props.get("title")
+            ).strip()
+            if name:
+                mapping[name.casefold()] = page.get("id")
+        if not data.get("has_more"):
+            break
+        cursor = data.get("next_cursor")
+        if not cursor:
+            break
+    return mapping
+
+
+def _page_payload(article, journal_page_id=None):
     article = _as_dict(article)
     properties = {
         "Title": _title(article.get("title")),
@@ -131,6 +164,8 @@ def _page_payload(article):
         "Stage": {"select": {"name": "Online First" if article.get("stage") == "online_first" else "Issue"}},
         "URL": {"url": article.get("url")} if article.get("url") else {"url": None},
     }
+    if journal_page_id:
+        properties["Journal Link"] = {"relation": [{"id": journal_page_id}]}
     published = _date(article.get("published"))
     detected = _date(article.get("detected") or datetime.now(timezone.utc).date().isoformat())
     if published:
@@ -156,6 +191,7 @@ def sync_articles(articles):
         return 0
 
     existing = _existing_keys(token)
+    journal_pages = _journal_directory_pages(token)
     added = 0
     skipped = 0
 
@@ -176,7 +212,14 @@ def sync_articles(articles):
             skipped += 1
             continue
 
-        _request(token, "POST", "/pages", json=_page_payload(article))
+        journal_name = (article.get("journal") or "").strip().casefold()
+        journal_page_id = journal_pages.get(journal_name)
+        if not journal_page_id:
+            raise NotionSyncError(
+                f"Journal Directory entry not found for journal: {article.get('journal')!r}"
+            )
+
+        _request(token, "POST", "/pages", json=_page_payload(article, journal_page_id))
         for key in candidate_keys:
             existing.add(key)
         added += 1
