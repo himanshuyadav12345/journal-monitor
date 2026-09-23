@@ -2,7 +2,7 @@ name: Journal Monitor
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "17 6 * * *"
   workflow_dispatch:
     inputs:
       populate_notion:
@@ -35,6 +35,7 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_BASELINE: ${{ inputs.populate_notion }}
           NOTION_DATA_SOURCE_ID: "3e264599-6a8c-80a0-9550-000b851d0067"
+          NOTION_JOURNAL_DIRECTORY_DATA_SOURCE_ID: "3cfd4973-125b-4cf9-ac1c-0163e7d7fec1"
         run: python -m monitor.main
       - name: Commit updated state and output
         run: |
