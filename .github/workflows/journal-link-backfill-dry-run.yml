@@ -1,0 +1,39 @@
+name: Journal Link Backfill (Dry Run)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run read-only backfill inspection
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATA_SOURCE_ID: "3e264599-6a8c-80a0-9550-000b851d0067"
+          NOTION_JOURNAL_DIRECTORY_DATA_SOURCE_ID: "3cfd4973-125b-4cf9-ac1c-0163e7d7fec1"
+        run: python -m monitor.backfill_journal_links
+      - name: Upload dry-run report
+        uses: actions/upload-artifact@v4
+        with:
+          name: journal-link-backfill-dry-run
+          path: output/journal_link_backfill_dry_run.json
+      - name: Show report summary
+        run: |
+          python - <<'PY'
+          import json
+          with open("output/journal_link_backfill_dry_run.json", encoding="utf-8") as f:
+              data = json.load(f)
+          print(json.dumps(data["summary"], indent=2))
+          PY
