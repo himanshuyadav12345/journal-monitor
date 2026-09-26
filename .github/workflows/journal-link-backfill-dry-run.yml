@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - journal-link-backfill-dry-run
+      - main
   workflow_dispatch:
 
 permissions:
