@@ -1,40 +1,53 @@
 {
-  "generated_at": "2026-10-03T11:42:39.497209+00:00",
-  "new_count": 2,
-  "candidate_count": 1843,
+  "generated_at": "2026-10-04T12:24:38.182723+00:00",
+  "new_count": 3,
+  "candidate_count": 1842,
   "articles": [
     {
-      "journal": "Intellectual History Review",
-      "journal_id": "j070",
-      "title": "The first emancipation: the forgotten history of abolition in Revolutionary France",
-      "url": "https://doi.org/10.1080/17496977.2026.2735070",
-      "doi": "10.1080/17496977.2026.2735070",
-      "published": "2026-10-02T00:00:00",
-      "updated": "2026-10-02T00:00:00",
+      "journal": "Historical Research",
+      "journal_id": "j001",
+      "title": "‘Calphurnia drove the French-men from our Coasts’: Mary II and the English navy",
+      "url": "https://doi.org/10.1093/hisres/htag020",
+      "doi": "10.1093/hisres/htag020",
+      "published": "2026-10-03T00:00:00",
+      "updated": "2026-08-05T00:00:00",
       "item_type": "journal-article",
-      "source": "crossref:online_first",
+      "source": "crossref_recent",
       "issue": null,
-      "stage": "online_first"
+      "stage": null
     },
     {
-      "journal": "Labor History",
-      "journal_id": "j075",
-      "title": "Why does collective labor re-emerge in a marketized rural society? Evidence from rural China",
-      "url": "https://doi.org/10.1080/0023656x.2026.2742357",
-      "doi": "10.1080/0023656x.2026.2742357",
-      "published": "2026-10-03T00:00:00",
-      "updated": "2026-10-03T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref:online_first",
+      "journal": "Socio-Economic Review",
+      "journal_id": "j007",
+      "title": "Rising market power and its political discontents",
+      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag056/8860361?rss=1",
+      "doi": "10.1093/ser/mwag056",
+      "published": "2026-10-04T00:00:00+00:00",
+      "updated": "2026-10-04T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:advance",
       "issue": null,
-      "stage": "online_first"
+      "stage": null
+    },
+    {
+      "journal": "Sociology of Religion",
+      "journal_id": "j056",
+      "title": "Explaining “Atheism” after a Brush with Death: A Qualitative Study of How Non-theists Undertake Meaning-Making after a Near-Death Experience",
+      "url": "https://academic.oup.com/socrel/advance-article/doi/10.1093/socrel/srag003/8860362?rss=1",
+      "doi": "10.1093/socrel/srag003",
+      "published": "2026-10-04T00:00:00+00:00",
+      "updated": "2026-10-04T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:advance",
+      "issue": null,
+      "stage": null
     }
   ],
   "source_stats": {
-    "j001": 10,
+    "j001": 11,
     "j002": 56,
     "j003": 24,
-    "j004": 18,
+    "j004": 17,
     "j005": 235,
     "j006": 11,
     "j007": 24,
@@ -94,7 +107,7 @@
     "j061": 14,
     "j062": 4,
     "j063": 10,
-    "j064": 72,
+    "j064": 71,
     "j065": 26,
     "j066": 35,
     "j067": 34,
@@ -115,8 +128,8 @@
     "j001": {
       "issue": true,
       "advance": true,
-      "records": 10,
-      "raw_records": 10,
+      "records": 11,
+      "raw_records": 11,
       "stale_rejected": 0
     },
     "j002": {
@@ -137,13 +150,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 18,
-      "raw_records": 18,
+      "records": 17,
+      "raw_records": 17,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 0,
-      "tandf_online_first_records": 18,
-      "crossref_records": 18
+      "tandf_online_first_records": 17,
+      "crossref_records": 17
     },
     "j005": {
       "issue": true,
@@ -562,13 +575,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 72,
-      "raw_records": 72,
+      "records": 71,
+      "raw_records": 71,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 16,
-      "tandf_online_first_records": 56,
-      "crossref_records": 72
+      "tandf_online_first_records": 55,
+      "crossref_records": 71
     },
     "j065": {
       "issue": false,
