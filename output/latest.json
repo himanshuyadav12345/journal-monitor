@@ -1,46 +1,72 @@
 {
-  "generated_at": "2026-10-04T12:24:38.182723+00:00",
-  "new_count": 3,
-  "candidate_count": 1842,
+  "generated_at": "2026-10-05T14:44:08.013420+00:00",
+  "new_count": 5,
+  "candidate_count": 1844,
   "articles": [
     {
-      "journal": "Historical Research",
-      "journal_id": "j001",
-      "title": "‘Calphurnia drove the French-men from our Coasts’: Mary II and the English navy",
-      "url": "https://doi.org/10.1093/hisres/htag020",
-      "doi": "10.1093/hisres/htag020",
-      "published": "2026-10-03T00:00:00",
-      "updated": "2026-08-05T00:00:00",
+      "journal": "Journal of British Studies",
+      "journal_id": "j032",
+      "title": "FORUM: 1776. Views from the British World: Tribes, Forests, and East India Company Rule in the Bengal Presidency during the Age of 1776",
+      "url": "https://dx.doi.org/10.1017/jbr.2026.10300?rft_dat=source%3Ddrss",
+      "doi": "10.1017/jbr.2026.10300",
+      "published": null,
+      "updated": "2026-10-05T00:00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "The Journal of Imperial and Commonwealth History",
+      "journal_id": "j064",
+      "title": "The Company and the Crown: Oil, Capital, and the Dual Mandate in Palestine",
+      "url": "https://doi.org/10.1080/03086534.2026.2723478",
+      "doi": "10.1080/03086534.2026.2723478",
+      "published": "2026-10-04T00:00:00",
+      "updated": "2026-10-04T00:00:00",
       "item_type": "journal-article",
-      "source": "crossref_recent",
+      "source": "crossref:online_first",
       "issue": null,
-      "stage": null
+      "stage": "online_first"
     },
     {
-      "journal": "Socio-Economic Review",
-      "journal_id": "j007",
-      "title": "Rising market power and its political discontents",
-      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag056/8860361?rss=1",
-      "doi": "10.1093/ser/mwag056",
-      "published": "2026-10-04T00:00:00+00:00",
-      "updated": "2026-10-04T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
+      "journal": "The Journal of Imperial and Commonwealth History",
+      "journal_id": "j064",
+      "title": "‘The Smallest Monarch in the World’: Othering, Indirect Rule and Depictions of the Heights of the Begums of Bhopal in the Imperial Press, 1872–1914",
+      "url": "https://doi.org/10.1080/03086534.2026.2738426",
+      "doi": "10.1080/03086534.2026.2738426",
+      "published": "2026-10-04T00:00:00",
+      "updated": "2026-10-04T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
       "issue": null,
-      "stage": null
+      "stage": "online_first"
     },
     {
-      "journal": "Sociology of Religion",
-      "journal_id": "j056",
-      "title": "Explaining “Atheism” after a Brush with Death: A Qualitative Study of How Non-theists Undertake Meaning-Making after a Near-Death Experience",
-      "url": "https://academic.oup.com/socrel/advance-article/doi/10.1093/socrel/srag003/8860362?rss=1",
-      "doi": "10.1093/socrel/srag003",
-      "published": "2026-10-04T00:00:00+00:00",
-      "updated": "2026-10-04T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
+      "journal": "The Journal of Imperial and Commonwealth History",
+      "journal_id": "j064",
+      "title": "Environmental Sanitation Management Techniques and the Politics of Filth in the Gold Coast (Colonial Ghana), c. 1878–1950",
+      "url": "https://doi.org/10.1080/03086534.2026.2733846",
+      "doi": "10.1080/03086534.2026.2733846",
+      "published": "2026-10-04T00:00:00",
+      "updated": "2026-10-04T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
       "issue": null,
-      "stage": null
+      "stage": "online_first"
+    },
+    {
+      "journal": "Settler Colonial Studies",
+      "journal_id": "j065",
+      "title": "Colonial misappropriation and infrastructural accumulation: how US federal agencies worked to expropriate O’odham land and water for science",
+      "url": "https://doi.org/10.1080/2201473x.2026.2735146",
+      "doi": "10.1080/2201473x.2026.2735146",
+      "published": "2026-10-04T00:00:00",
+      "updated": "2026-10-05T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
     }
   ],
   "source_stats": {
@@ -54,14 +80,14 @@
     "j008": 20,
     "j009": 9,
     "j010": 8,
-    "j011": 32,
+    "j011": 45,
     "j012": 11,
     "j013": 8,
     "j014": 9,
-    "j015": 18,
-    "j016": 8,
-    "j017": 21,
-    "j018": 63,
+    "j015": 28,
+    "j016": 9,
+    "j017": 35,
+    "j018": 111,
     "j019": 20,
     "j020": 30,
     "j021": 16,
@@ -75,7 +101,7 @@
     "j029": 28,
     "j030": 18,
     "j031": 34,
-    "j032": 196,
+    "j032": 198,
     "j033": 22,
     "j034": 48,
     "j035": 36,
@@ -95,8 +121,8 @@
     "j049": 14,
     "j050": 0,
     "j051": 18,
-    "j052": 70,
-    "j053": 29,
+    "j052": 131,
+    "j053": 43,
     "j054": 10,
     "j055": 26,
     "j056": 5,
@@ -107,9 +133,9 @@
     "j061": 14,
     "j062": 4,
     "j063": 10,
-    "j064": 71,
-    "j065": 26,
-    "j066": 35,
+    "j064": 73,
+    "j065": 27,
+    "j066": 34,
     "j067": 34,
     "j068": 16,
     "j069": 39,
@@ -118,7 +144,7 @@
     "j072": 20,
     "j073": 22,
     "j074": 6,
-    "j075": 36,
+    "j075": 35,
     "j076": 27,
     "j077": 6,
     "j078": 49,
@@ -203,8 +229,8 @@
     "j011": {
       "issue": true,
       "advance": true,
-      "records": 32,
-      "raw_records": 32,
+      "records": 45,
+      "raw_records": 45,
       "stale_rejected": 0
     },
     "j012": {
@@ -231,30 +257,30 @@
     "j015": {
       "issue": true,
       "advance": true,
-      "records": 18,
-      "raw_records": 18,
+      "records": 28,
+      "raw_records": 28,
       "stale_rejected": 0
     },
     "j016": {
       "issue": true,
       "advance": true,
-      "records": 8,
-      "raw_records": 8,
+      "records": 9,
+      "raw_records": 9,
       "stale_rejected": 0
     },
     "j017": {
       "issue": true,
       "advance": true,
-      "records": 21,
-      "raw_records": 21,
+      "records": 35,
+      "raw_records": 35,
       "stale_rejected": 0
     },
     "j018": {
       "issue": true,
       "advance": true,
-      "records": 63,
-      "raw_records": 64,
-      "stale_rejected": 1
+      "records": 111,
+      "raw_records": 113,
+      "stale_rejected": 2
     },
     "j019": {
       "issue": true,
@@ -350,8 +376,8 @@
     "j032": {
       "issue": true,
       "advance": true,
-      "records": 196,
-      "raw_records": 196,
+      "records": 198,
+      "raw_records": 198,
       "stale_rejected": 0
     },
     "j033": {
@@ -490,15 +516,15 @@
     "j052": {
       "issue": true,
       "advance": true,
-      "records": 70,
-      "raw_records": 115,
-      "stale_rejected": 45
+      "records": 131,
+      "raw_records": 213,
+      "stale_rejected": 82
     },
     "j053": {
       "issue": true,
       "advance": true,
-      "records": 29,
-      "raw_records": 29,
+      "records": 43,
+      "raw_records": 43,
       "stale_rejected": 0
     },
     "j054": {
@@ -575,37 +601,37 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 71,
-      "raw_records": 71,
+      "records": 73,
+      "raw_records": 73,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 16,
-      "tandf_online_first_records": 55,
-      "crossref_records": 71
+      "tandf_issue_records": 15,
+      "tandf_online_first_records": 58,
+      "crossref_records": 73
     },
     "j065": {
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 26,
-      "raw_records": 26,
+      "records": 27,
+      "raw_records": 27,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 3,
-      "tandf_online_first_records": 23,
-      "crossref_records": 26
+      "tandf_online_first_records": 24,
+      "crossref_records": 27
     },
     "j066": {
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 35,
-      "raw_records": 35,
+      "records": 34,
+      "raw_records": 34,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 18,
-      "tandf_online_first_records": 17,
-      "crossref_records": 35
+      "tandf_online_first_records": 16,
+      "crossref_records": 34
     },
     "j067": {
       "issue": false,
@@ -707,13 +733,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 36,
-      "raw_records": 36,
+      "records": 35,
+      "raw_records": 35,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 0,
-      "tandf_online_first_records": 36,
-      "crossref_records": 36
+      "tandf_online_first_records": 35,
+      "crossref_records": 35
     },
     "j076": {
       "issue": false,
@@ -766,6 +792,6 @@
   },
   "quality_control": {
     "publisher_max_age_days": 540,
-    "stale_records_rejected": 171
+    "stale_records_rejected": 209
   }
 }
