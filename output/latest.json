@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-10-12T15:30:14.332426+00:00",
+  "generated_at": "2026-10-13T14:15:31.209189+00:00",
   "new_count": 6,
-  "candidate_count": 1861,
+  "candidate_count": 1854,
   "articles": [
     {
-      "journal": "Socio-Economic Review",
-      "journal_id": "j007",
-      "title": "Robot-based automation and new firm formation: the role of formal human capital development",
-      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag061/8907431?rss=1",
-      "doi": "10.1093/ser/mwag061",
-      "published": "2026-10-10T00:00:00+00:00",
-      "updated": "2026-10-10T00:00:00+00:00",
+      "journal": "International Political Sociology",
+      "journal_id": "j006",
+      "title": "Netflix and Kill: The Influence of Popular Culture on Anti-Technology Insurrectionary Anarchism",
+      "url": "https://academic.oup.com/ips/article/doi/10.1093/ips/olag043/8914333?rss=1",
+      "doi": "10.1093/ips/olag043",
+      "published": "2026-10-13T00:00:00+00:00",
+      "updated": "2026-10-13T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "History and Sociology of South Asia",
+      "journal_id": "j016",
+      "title": "From Kingdom to Household: A Sociological Study of ‘Vaulting Ambition’ in Twenty-first-century India Through Joji",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/22308075261490314?ai=2b4&mi=ehikzz&af=R",
+      "doi": "10.1177/22308075261490314",
+      "published": null,
+      "updated": "2026-10-11T03:53:37+00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "History and Sociology of South Asia",
+      "journal_id": "j016",
+      "title": "Thunderous Drums, Silent Sacrifices: ​Unveiling the Valour of Tribal Martyrs in Colonial Rajasthan",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/22308075261489951?ai=2b4&mi=ehikzz&af=R",
+      "doi": "10.1177/22308075261489951",
+      "published": null,
+      "updated": "2026-10-11T03:56:19+00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "Bulletin of SOAS",
+      "journal_id": "j036",
+      "title": "Longobardo and the essence of the\n                    <i>Dao</i>\n                    : a study of the\n                    <i>Linghun daoti shuo</i>\n                    (\n                    <i>c.</i>\n                    1636)",
+      "url": "https://doi.org/10.1017/s0041977x2610130x",
+      "doi": "10.1017/s0041977x2610130x",
+      "published": "2026-10-13T00:00:00",
+      "updated": "2026-10-13T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref_recent",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "Law, Culture and the Humanities",
+      "journal_id": "j052",
+      "title": "Editorial",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/17438721261494744?ai=2b4&mi=ehikzz&af=R",
+      "doi": "10.1177/17438721261494744",
+      "published": null,
+      "updated": "2026-10-12T09:00:58+00:00",
+      "item_type": null,
+      "source": "publisher:issue",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "German History",
+      "journal_id": "j057",
+      "title": "Learning to Feel Again: Emotion and the Politics of Wiedergutmachung in Postwar Germany",
+      "url": "https://academic.oup.com/gh/advance-article/doi/10.1093/gerhis/ghag028/8910809?rss=1",
+      "doi": "10.1093/gerhis/ghag028",
+      "published": "2026-10-12T00:00:00+00:00",
+      "updated": "2026-10-12T00:00:00+00:00",
       "item_type": null,
       "source": "publisher:advance",
       "issue": null,
       "stage": null
-    },
-    {
-      "journal": "History of Science",
-      "journal_id": "j017",
-      "title": "Modelling malaria: Collaboration between Ronald Ross, Karl Pearson, and other mathematicians",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/00732753261487059?ai=2b4&mi=ehikzz&af=R",
-      "doi": "10.1177/00732753261487059",
-      "published": null,
-      "updated": "2026-10-12T08:18:18+00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Modern Asian Studies",
-      "journal_id": "j019",
-      "title": "Borderland extraterritoriality: The Yunnan-Burma frontier meetings (1902–1949)",
-      "url": "https://dx.doi.org/10.1017/S0026749X26102133?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0026749x26102133",
-      "published": null,
-      "updated": "2026-09-22T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Modern Asian Studies",
-      "journal_id": "j019",
-      "title": "Hybridity, glocalization, and the negotiation of contemporary Chineseness in guoman (national animation): White Snake: Afloat (2024)",
-      "url": "https://dx.doi.org/10.1017/S0026749X26102121?rft_dat=source%3Ddrss",
-      "doi": "10.1017/s0026749x26102121",
-      "published": null,
-      "updated": "2026-09-22T00:00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "The Journal of Imperial and Commonwealth History",
-      "journal_id": "j064",
-      "title": "The Obfuscations of\n                    <i>Coloniality</i>",
-      "url": "https://doi.org/10.1080/03086534.2026.2743043",
-      "doi": "10.1080/03086534.2026.2743043",
-      "published": "2026-10-11T00:00:00",
-      "updated": "2026-10-11T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref:online_first",
-      "issue": null,
-      "stage": "online_first"
-    },
-    {
-      "journal": "The Journal of Imperial and Commonwealth History",
-      "journal_id": "j064",
-      "title": "An Encroaching Sea: Nature, Sovereignty and Development at the Edge of British India, 1860–1950",
-      "url": "https://doi.org/10.1080/03086534.2026.2745029",
-      "doi": "10.1080/03086534.2026.2745029",
-      "published": "2026-10-11T00:00:00",
-      "updated": "2026-10-11T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref:online_first",
-      "issue": null,
-      "stage": "online_first"
     }
   ],
   "source_stats": {
@@ -88,7 +88,7 @@
     "j003": 24,
     "j004": 17,
     "j005": 235,
-    "j006": 12,
+    "j006": 13,
     "j007": 23,
     "j008": 20,
     "j009": 9,
@@ -98,7 +98,7 @@
     "j013": 8,
     "j014": 10,
     "j015": 18,
-    "j016": 8,
+    "j016": 10,
     "j017": 22,
     "j018": 48,
     "j019": 24,
@@ -118,7 +118,7 @@
     "j033": 22,
     "j034": 48,
     "j035": 36,
-    "j036": 5,
+    "j036": 6,
     "j037": 22,
     "j038": 16,
     "j039": 16,
@@ -134,7 +134,7 @@
     "j049": 14,
     "j050": 0,
     "j051": 34,
-    "j052": 71,
+    "j052": 63,
     "j053": 32,
     "j054": 10,
     "j055": 26,
@@ -147,12 +147,12 @@
     "j062": 4,
     "j063": 10,
     "j064": 79,
-    "j065": 27,
+    "j065": 26,
     "j066": 35,
     "j067": 34,
     "j068": 16,
-    "j069": 35,
-    "j070": 36,
+    "j069": 34,
+    "j070": 35,
     "j071": 17,
     "j072": 21,
     "j073": 22,
@@ -207,8 +207,8 @@
     "j006": {
       "issue": true,
       "advance": true,
-      "records": 12,
-      "raw_records": 14,
+      "records": 13,
+      "raw_records": 15,
       "stale_rejected": 2
     },
     "j007": {
@@ -277,8 +277,8 @@
     "j016": {
       "issue": true,
       "advance": true,
-      "records": 8,
-      "raw_records": 8,
+      "records": 10,
+      "raw_records": 10,
       "stale_rejected": 0
     },
     "j017": {
@@ -417,8 +417,8 @@
     "j036": {
       "issue": true,
       "advance": false,
-      "records": 5,
-      "raw_records": 5,
+      "records": 6,
+      "raw_records": 6,
       "stale_rejected": 0
     },
     "j037": {
@@ -529,9 +529,9 @@
     "j052": {
       "issue": true,
       "advance": true,
-      "records": 71,
-      "raw_records": 116,
-      "stale_rejected": 45
+      "records": 63,
+      "raw_records": 100,
+      "stale_rejected": 37
     },
     "j053": {
       "issue": true,
@@ -626,13 +626,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 27,
-      "raw_records": 27,
+      "records": 26,
+      "raw_records": 26,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 3,
-      "tandf_online_first_records": 24,
-      "crossref_records": 27
+      "tandf_online_first_records": 23,
+      "crossref_records": 26
     },
     "j066": {
       "issue": false,
@@ -674,25 +674,25 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 35,
-      "raw_records": 35,
+      "records": 34,
+      "raw_records": 34,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 0,
-      "tandf_online_first_records": 35,
-      "crossref_records": 35
+      "tandf_online_first_records": 34,
+      "crossref_records": 34
     },
     "j070": {
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 36,
-      "raw_records": 36,
+      "records": 35,
+      "raw_records": 35,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 7,
-      "tandf_online_first_records": 29,
-      "crossref_records": 36
+      "tandf_online_first_records": 28,
+      "crossref_records": 35
     },
     "j071": {
       "issue": false,
@@ -805,6 +805,6 @@
   },
   "quality_control": {
     "publisher_max_age_days": 540,
-    "stale_records_rejected": 171
+    "stale_records_rejected": 163
   }
 }
