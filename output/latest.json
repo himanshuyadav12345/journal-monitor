@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-10-13T14:15:31.209189+00:00",
+  "generated_at": "2026-10-14T11:57:28.343629+00:00",
   "new_count": 6,
-  "candidate_count": 1854,
+  "candidate_count": 1856,
   "articles": [
     {
-      "journal": "International Political Sociology",
-      "journal_id": "j006",
-      "title": "Netflix and Kill: The Influence of Popular Culture on Anti-Technology Insurrectionary Anarchism",
-      "url": "https://academic.oup.com/ips/article/doi/10.1093/ips/olag043/8914333?rss=1",
-      "doi": "10.1093/ips/olag043",
+      "journal": "Socio-Economic Review",
+      "journal_id": "j007",
+      "title": "Integrating care into growth regimes: the politics of social reproduction and hybridity in Japan and Korea",
+      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag053/8914615?rss=1",
+      "doi": "10.1093/ser/mwag053",
       "published": "2026-10-13T00:00:00+00:00",
       "updated": "2026-10-13T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "History and Sociology of South Asia",
-      "journal_id": "j016",
-      "title": "From Kingdom to Household: A Sociological Study of ‘Vaulting Ambition’ in Twenty-first-century India Through Joji",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/22308075261490314?ai=2b4&mi=ehikzz&af=R",
-      "doi": "10.1177/22308075261490314",
-      "published": null,
-      "updated": "2026-10-11T03:53:37+00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "History and Sociology of South Asia",
-      "journal_id": "j016",
-      "title": "Thunderous Drums, Silent Sacrifices: ​Unveiling the Valour of Tribal Martyrs in Colonial Rajasthan",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/22308075261489951?ai=2b4&mi=ehikzz&af=R",
-      "doi": "10.1177/22308075261489951",
-      "published": null,
-      "updated": "2026-10-11T03:56:19+00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Bulletin of SOAS",
-      "journal_id": "j036",
-      "title": "Longobardo and the essence of the\n                    <i>Dao</i>\n                    : a study of the\n                    <i>Linghun daoti shuo</i>\n                    (\n                    <i>c.</i>\n                    1636)",
-      "url": "https://doi.org/10.1017/s0041977x2610130x",
-      "doi": "10.1017/s0041977x2610130x",
-      "published": "2026-10-13T00:00:00",
-      "updated": "2026-10-13T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref_recent",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Law, Culture and the Humanities",
-      "journal_id": "j052",
-      "title": "Editorial",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/17438721261494744?ai=2b4&mi=ehikzz&af=R",
-      "doi": "10.1177/17438721261494744",
-      "published": null,
-      "updated": "2026-10-12T09:00:58+00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "German History",
-      "journal_id": "j057",
-      "title": "Learning to Feel Again: Emotion and the Politics of Wiedergutmachung in Postwar Germany",
-      "url": "https://academic.oup.com/gh/advance-article/doi/10.1093/gerhis/ghag028/8910809?rss=1",
-      "doi": "10.1093/gerhis/ghag028",
-      "published": "2026-10-12T00:00:00+00:00",
-      "updated": "2026-10-12T00:00:00+00:00",
       "item_type": null,
       "source": "publisher:advance",
       "issue": null,
       "stage": null
+    },
+    {
+      "journal": "Past & Present",
+      "journal_id": "j009",
+      "title": "The Transition to Wage Labour, in Stone, in North Wales, in Jamaica*",
+      "url": "https://academic.oup.com/past/advance-article/doi/10.1093/pastj/gtag031/8916317?rss=1",
+      "doi": "10.1093/pastj/gtag031",
+      "published": "2026-10-14T00:00:00+00:00",
+      "updated": "2026-10-14T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:advance",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "Holocaust and Genocide Studies",
+      "journal_id": "j060",
+      "title": "Man, non-men, and beasts: masculinity in Primo Levi’s If This Is a Man",
+      "url": "https://academic.oup.com/hgs/advance-article/doi/10.1093/hgs/dcag047/8914445?rss=1",
+      "doi": "10.1093/hgs/dcag047",
+      "published": "2026-10-13T00:00:00+00:00",
+      "updated": "2026-10-13T00:00:00+00:00",
+      "item_type": null,
+      "source": "publisher:advance",
+      "issue": null,
+      "stage": null
+    },
+    {
+      "journal": "The Journal of Imperial and Commonwealth History",
+      "journal_id": "j064",
+      "title": "Macaulay's Ghost in the Indian Classroom: Colonial Language Policy and the Ranking of Knowledge",
+      "url": "https://doi.org/10.1080/03086534.2026.2745025",
+      "doi": "10.1080/03086534.2026.2745025",
+      "published": "2026-10-13T00:00:00",
+      "updated": "2026-10-13T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
+    },
+    {
+      "journal": "War & Society",
+      "journal_id": "j072",
+      "title": "War without frontlines: smuggling and the erosion of state power in South Vietnam (1955–1975)",
+      "url": "https://doi.org/10.1080/07292473.2026.2740296",
+      "doi": "10.1080/07292473.2026.2740296",
+      "published": "2026-10-14T00:00:00",
+      "updated": "2026-10-14T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
+    },
+    {
+      "journal": "South Asia: Journal of South Asian Studies",
+      "journal_id": "j079",
+      "title": "Populist Politics and Law Reform in Sri Lanka: Whither Legal Pluralism?",
+      "url": "https://doi.org/10.1080/00856401.2026.2719347",
+      "doi": "10.1080/00856401.2026.2719347",
+      "published": "2026-10-13T00:00:00",
+      "updated": "2026-10-14T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
     }
   ],
   "source_stats": {
@@ -89,7 +89,7 @@
     "j004": 17,
     "j005": 235,
     "j006": 13,
-    "j007": 23,
+    "j007": 22,
     "j008": 20,
     "j009": 9,
     "j010": 8,
@@ -146,7 +146,7 @@
     "j061": 14,
     "j062": 4,
     "j063": 10,
-    "j064": 79,
+    "j064": 80,
     "j065": 26,
     "j066": 35,
     "j067": 34,
@@ -154,14 +154,14 @@
     "j069": 34,
     "j070": 35,
     "j071": 17,
-    "j072": 21,
+    "j072": 22,
     "j073": 22,
     "j074": 5,
     "j075": 35,
     "j076": 27,
     "j077": 5,
     "j078": 49,
-    "j079": 44
+    "j079": 45
   },
   "source_availability": {
     "j001": {
@@ -214,8 +214,8 @@
     "j007": {
       "issue": true,
       "advance": true,
-      "records": 23,
-      "raw_records": 23,
+      "records": 22,
+      "raw_records": 22,
       "stale_rejected": 0
     },
     "j008": {
@@ -614,13 +614,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 79,
-      "raw_records": 79,
+      "records": 80,
+      "raw_records": 80,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 15,
-      "tandf_online_first_records": 64,
-      "crossref_records": 79
+      "tandf_online_first_records": 65,
+      "crossref_records": 80
     },
     "j065": {
       "issue": false,
@@ -710,13 +710,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 21,
-      "raw_records": 21,
+      "records": 22,
+      "raw_records": 22,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 15,
-      "tandf_online_first_records": 6,
-      "crossref_records": 21
+      "tandf_online_first_records": 7,
+      "crossref_records": 22
     },
     "j073": {
       "issue": false,
@@ -794,13 +794,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 44,
-      "raw_records": 44,
+      "records": 45,
+      "raw_records": 45,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 27,
-      "tandf_online_first_records": 17,
-      "crossref_records": 44
+      "tandf_online_first_records": 18,
+      "crossref_records": 45
     }
   },
   "quality_control": {
