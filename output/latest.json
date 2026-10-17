@@ -1,72 +1,20 @@
 {
-  "generated_at": "2026-10-16T11:27:32.071615+00:00",
-  "new_count": 5,
-  "candidate_count": 1875,
+  "generated_at": "2026-10-17T10:47:20.626735+00:00",
+  "new_count": 1,
+  "candidate_count": 1874,
   "articles": [
     {
-      "journal": "The English Historical Review",
-      "journal_id": "j002",
-      "title": "Their Majesties and the Metropole: King Lewanika of Barotseland in Britain and the Coronation of King Edward VII, 1902*",
-      "url": "https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag228/8923623?rss=1",
-      "doi": "10.1093/ehr/ceag228",
-      "published": "2026-10-15T00:00:00+00:00",
-      "updated": "2026-10-15T00:00:00+00:00",
+      "journal": "Socio-Economic Review",
+      "journal_id": "j007",
+      "title": "Contesting the code: labor–management conflicts over AI adoption and the role of power resources under German codetermination",
+      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag047/8931743?rss=1",
+      "doi": "10.1093/ser/mwag047",
+      "published": "2026-10-16T00:00:00+00:00",
+      "updated": "2026-10-16T00:00:00+00:00",
       "item_type": null,
       "source": "publisher:advance",
       "issue": null,
       "stage": null
-    },
-    {
-      "journal": "The English Historical Review",
-      "journal_id": "j002",
-      "title": "Cultures of the Medieval Kingdom of Jerusalem: Frontier Inventiveness in the Age of the Crusades, by Benjamin Z. Kedar",
-      "url": "https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag232/8923622?rss=1",
-      "doi": "10.1093/ehr/ceag232",
-      "published": "2026-10-15T00:00:00+00:00",
-      "updated": "2026-10-15T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Journal of Social History",
-      "journal_id": "j004",
-      "title": "Spanish Buenos Aires as revealed by Ramón Franco’s pioneering flight of 1926: regional and class divisions",
-      "url": "https://doi.org/10.1093/jsh/shag049",
-      "doi": "10.1093/jsh/shag049",
-      "published": "2026-10-15T00:00:00",
-      "updated": "2026-09-22T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref:online_first",
-      "issue": null,
-      "stage": "online_first"
-    },
-    {
-      "journal": "The Indian Economic and Social History Review",
-      "journal_id": "j013",
-      "title": "The Scheduled Castes, late colonial constitutional reform and the ghost of the ‘Gait Circular’",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/00194646261495199?ai=2b4&mi=ehikzz&af=R",
-      "doi": "10.1177/00194646261495199",
-      "published": null,
-      "updated": "2026-10-16T04:29:41+00:00",
-      "item_type": null,
-      "source": "publisher:issue",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Cultural and Social History",
-      "journal_id": "j076",
-      "title": "Petitioning and Power Relations in Pre-Modern Eurasia",
-      "url": "https://doi.org/10.1080/14780038.2026.2749284",
-      "doi": "10.1080/14780038.2026.2749284",
-      "published": "2026-10-15T00:00:00",
-      "updated": "2026-10-16T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref:online_first",
-      "issue": null,
-      "stage": "online_first"
     }
   ],
   "source_stats": {
@@ -104,7 +52,7 @@
     "j032": 200,
     "j033": 22,
     "j034": 48,
-    "j035": 36,
+    "j035": 34,
     "j036": 6,
     "j037": 22,
     "j038": 16,
@@ -397,9 +345,9 @@
     "j035": {
       "issue": true,
       "advance": true,
-      "records": 36,
+      "records": 34,
       "raw_records": 64,
-      "stale_rejected": 18
+      "stale_rejected": 20
     },
     "j036": {
       "issue": true,
@@ -792,6 +740,6 @@
   },
   "quality_control": {
     "publisher_max_age_days": 540,
-    "stale_records_rejected": 164
+    "stale_records_rejected": 166
   }
 }
