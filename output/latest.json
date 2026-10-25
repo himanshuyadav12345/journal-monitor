@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-24T11:04:54.239634+00:00",
+  "generated_at": "2026-10-25T11:33:15.346765+00:00",
   "new_count": 1,
   "candidate_count": 1870,
   "articles": [
     {
-      "journal": "The English Historical Review",
-      "journal_id": "j002",
-      "title": "Correction to: Peacemaking in Ireland and England, 1642–1646",
-      "url": "https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag233/8994317?rss=1",
-      "doi": "10.1093/ehr/ceag233",
-      "published": "2026-10-23T00:00:00+00:00",
-      "updated": "2026-10-23T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
+      "journal": "Journal of Modern European History",
+      "journal_id": "j014",
+      "title": "Brokering International Banking: Board Members of Foreign Banks in Switzerland, 1947–1980",
+      "url": "https://doi.org/10.1177/16118944261489447",
+      "doi": "10.1177/16118944261489447",
+      "published": "2026-10-24T00:00:00",
+      "updated": "2026-10-24T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref_recent",
       "issue": null,
       "stage": null
     }
@@ -31,7 +31,7 @@
     "j011": 14,
     "j012": 14,
     "j013": 14,
-    "j014": 9,
+    "j014": 10,
     "j015": 19,
     "j016": 10,
     "j017": 22,
@@ -69,7 +69,7 @@
     "j049": 14,
     "j050": 0,
     "j051": 34,
-    "j052": 63,
+    "j052": 62,
     "j053": 32,
     "j054": 10,
     "j055": 28,
@@ -198,8 +198,8 @@
     "j014": {
       "issue": true,
       "advance": true,
-      "records": 9,
-      "raw_records": 9,
+      "records": 10,
+      "raw_records": 10,
       "stale_rejected": 0
     },
     "j015": {
@@ -464,9 +464,9 @@
     "j052": {
       "issue": true,
       "advance": true,
-      "records": 63,
+      "records": 62,
       "raw_records": 100,
-      "stale_rejected": 37
+      "stale_rejected": 38
     },
     "j053": {
       "issue": true,
@@ -740,6 +740,6 @@
   },
   "quality_control": {
     "publisher_max_age_days": 540,
-    "stale_records_rejected": 166
+    "stale_records_rejected": 167
   }
 }
