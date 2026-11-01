@@ -1,18 +1,153 @@
 journal,journal_id,title,url,doi,published,updated,item_type,source,issue,stage
-The English Historical Review,j002,"Cultivating the Earth, Nurturing the Body and Soul: Daily Life in Early Medieval England. Essays in Honour of Debby Banham, ed. Christine Voth",https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag257/9005425?rss=1,10.1093/ehr/ceag257,2026-10-30T00:00:00+00:00,2026-10-30T00:00:00+00:00,,publisher:advance,,
-The English Historical Review,j002,"The World at First Light: A New History of the Renaissance, by Bernd Roeck, tr. Patrick Baker",https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag251/9004892?rss=1,10.1093/ehr/ceag251,2026-10-29T00:00:00+00:00,2026-10-29T00:00:00+00:00,,publisher:advance,,
-German History,j057,Peace Ethic or Power Politics? Thoughts on the ‘Peace Programme’ of Henry III,https://academic.oup.com/gh/advance-article/doi/10.1093/gerhis/ghag037/9005661?rss=1,10.1093/gerhis/ghag037,2026-10-30T00:00:00+00:00,2026-10-30T00:00:00+00:00,,publisher:advance,,
-Bulletin of the Institute of Classical Studies,j061,Cognition and fragmentation in the Greek comic corpus: patterns of exchange,https://academic.oup.com/bics/advance-article/doi/10.1093/bics/qbag041/9005580?rss=1,10.1093/bics/qbag041,2026-10-30T00:00:00+00:00,2026-10-30T00:00:00+00:00,,publisher:advance,,
-The Journal of Imperial and Commonwealth History,j064,"An Empire on Paper: Greater Britain and the Racial Propaganda of the Imperial Federation League, 1884–1893",https://doi.org/10.1080/03086534.2026.2738422,10.1080/03086534.2026.2738422,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref:online_first,,online_first
-South Asian Diaspora,j074,"Vulnerability, affect, and relationality: South Asian diasporic maternal subjectivities in Hansal Mehta’s
-                    <i>The Buckingham Murders</i>",https://doi.org/10.1080/19438192.2026.2754569,10.1080/19438192.2026.2754569,2026-10-31T00:00:00,2026-10-31T00:00:00,journal-article,crossref:online_first,,online_first
-South Asian Studies,j077,"“Objects of Inquiry?”: Everyday Conservation, Positivist Science, and the Social Dynamics of Power",https://doi.org/10.1080/02666030.2026.2756081,10.1080/02666030.2026.2756081,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref:online_first,,online_first
-Contemporary South Asia,j078,"Fear and alterity in
-                    <i>The Kerala Story</i>
-                    (2023): affective politics and the construction of Muslims in contemporary Indian cinema",https://doi.org/10.1080/09584935.2026.2732223,10.1080/09584935.2026.2732223,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref:online_first,,online_first
-Contemporary South Asia,j078,Christian televangelism and ‘crusades’ in a Muslim land,https://doi.org/10.1080/09584935.2026.2725212,10.1080/09584935.2026.2725212,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref:online_first,,online_first
-Contemporary South Asia,j078,Melody and resistance: environmental activism of Zubeen Garg,https://doi.org/10.1080/09584935.2026.2740787,10.1080/09584935.2026.2740787,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref:online_first,,online_first
-Contemporary South Asia,j078,"Cinematic experiments and political mythmaking: deconstructing the celebrity
-                    <i>auteur</i>
-                    body of Kamal Haasan in Indian cinema",https://doi.org/10.1080/09584935.2026.2739570,10.1080/09584935.2026.2739570,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref:online_first,,online_first
-Contemporary South Asia,j078,"The emerging landscape of entrepreneurship among Muslim women in India amid experiences of exclusion, discrimination and inequality",https://doi.org/10.1080/09584935.2026.2721693,10.1080/09584935.2026.2721693,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref:online_first,,online_first
+Studies in History,j010,"Book review: Gulfishan Khan,
+                    <i>Indo-Persian Elite in the Late Eighteenth to the Early Nineteenth Century</i>",https://doi.org/10.1177/02576430261499160,10.1177/02576430261499160,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,,
+Studies in History,j010,"Book review: Dipsikha Acharya, Sudip Khasnobish and Chanchal Adhikary (Eds),
+                    <i>Locating the ‘Local’ in South Asia: Critical Themes in the History of Northern Bengal</i>",https://doi.org/10.1177/02576430261499159,10.1177/02576430261499159,2026-10-27T00:00:00,2026-10-27T00:00:00,journal-article,crossref_recent,,
+Indian Historical Review,j012,Unsung Heroes in the Service of Motherland: A Study of the Tarapur Police Shooting on 15 February 1932,https://doi.org/10.1177/03769836261498589,10.1177/03769836261498589,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref_recent,,
+Indian Historical Review,j012,Locating Tradition in the Connected Histories of Space: The Case of Relooking Kashmir Śaivism,https://doi.org/10.1177/03769836261498560,10.1177/03769836261498560,2026-10-27T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,,
+Indian Historical Review,j012,"Monk, Commander, Citizen: Political Theology from Vivekananda to Subhas Chandra Bose, 1893–1945",https://doi.org/10.1177/03769836261498559,10.1177/03769836261498559,2026-10-27T00:00:00,2026-10-27T00:00:00,journal-article,crossref_recent,,
+Indian Historical Review,j012,"Book review: Sudev Sheth,
+                    <i>Bankrolling Empire: Family, Fortunes and Political Transformation in Mughal India</i>",https://doi.org/10.1177/03769836261497678,10.1177/03769836261497678,2026-10-25T00:00:00,2026-10-26T00:00:00,journal-article,crossref_recent,,
+Indian Historical Review,j012,"Book review: Indra Kumar Choudhary,
+                    <i>Echoes of History: Unveiling Medieval Jharkhand</i>",https://doi.org/10.1177/03769836261497676,10.1177/03769836261497676,2026-10-25T00:00:00,2026-10-26T00:00:00,journal-article,crossref_recent,,
+The Indian Economic and Social History Review,j013,"Kingship and the language of ecology in early medieval Tamil̄akam, 500–800
+                    <scp>ce</scp>",https://doi.org/10.1177/00194646261495234,10.1177/00194646261495234,2026-10-22T00:00:00,2026-10-22T00:00:00,journal-article,crossref_recent,,
+The Indian Economic and Social History Review,j013,Hindustan–Tibet Road and colonial interventions in Shimla Hill States,https://doi.org/10.1177/00194646261495216,10.1177/00194646261495216,2026-10-22T00:00:00,2026-10-22T00:00:00,journal-article,crossref_recent,,
+European History Quarterly,j015,Tolerating the Intolerant? The Revival of Far-Right Ideas at the Dawn of the Cold War Through a Comparative Analysis,https://doi.org/10.1177/02656914261499581,10.1177/02656914261499581,2026-10-27T00:00:00,2026-10-27T00:00:00,journal-article,crossref_recent,,
+European History Quarterly,j015,"Book Review:
+                    <i>Occupiers, Humanitarian Workers, and Polish Displaced Persons in British-Occupied Germany</i>
+                    by Samantha K. Knapton KnaptonSamantha K.,
+                    <i>Occupiers, Humanitarian Workers, and Polish Displaced Persons in British-Occupied Germany</i>
+                    , Bloomsbury Academic: London, 2023; 264 pp., 2 b/w illus; 9781350189256, £90.00 (hbk); 9781526629289, £29.99 (pbk); 9781350189263, £26.99 (ebook)",https://doi.org/10.1177/02656914261480605t,10.1177/02656914261480605t,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>The Bloomsbury Handbook of the Spanish Civil War</i>
+                    by Antonio Cazorla-Sánchez, Alison Ribeiro de Menezes, Adrian Shubert, eds Cazorla-SánchezAntoniode MenezesAlison RibeiroShubertAdrian, eds,
+                    <i>The Bloomsbury Handbook of the Spanish Civil War</i>
+                    , Bloomsbury Academic: London, 2023; 520 pp.; 9781350230408, £135.00 (hbk); 9781350235267, £39.99 (pbk); 9781350230415, £35.99 (ebook)",https://doi.org/10.1177/02656914261480605h,10.1177/02656914261480605h,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>The Global Spread of Football from the 1860s to the 1880s</i>
+                    by Thomas Adam AdamThomas,
+                    <i>The Global Spread of Football from the 1860s to the 1880s</i>
+                    , Anthem Press: London, 2025; 154 pp.; 9781839987205, £80.00 (hbk); 9781839987212, £25.00 (ebook)",https://doi.org/10.1177/02656914261480605a,10.1177/02656914261480605a,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Jewish Refugees in the Balkans, 1933–1945</i>
+                    by Bojan Aleksov AleksovBojan,
+                    <i>Jewish Refugees in the Balkans, 1933–1945</i>
+                    , Brill Schöningh: Paderborn, 2023; 389 pp.; 9783506791740, €115.89 (hbk); 9783657791743, €115.89 (ebook)",https://doi.org/10.1177/02656914261480605b,10.1177/02656914261480605b,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Water in World History</i>
+                    by Ellen Arnold ArnoldEllen,
+                    <i>Water in World History</i>
+                    , Routledge: London, 2024; 190 pp.; 9780367650124, £145.00 (hbk); 9780367650056, £37.99 (pbk); 9781003127390, £34.19 (ebook)",https://doi.org/10.1177/02656914261480605c,10.1177/02656914261480605c,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>The First Social Democracy: The Democratic Republic of Georgia, 1918–1921</i>
+                    by Stephen F. Jones JonesStephen F.,
+                    <i>The First Social Democracy: The Democratic Republic of Georgia, 1918–1921</i>
+                    , Harvard University Press: Cambridge, MA, 2026; 432 pp., 18 photos, 5 maps; 9780674046238, £33.95 (hbk)",https://doi.org/10.1177/02656914261480605q,10.1177/02656914261480605q,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Geo-Political Spaces: Interdisciplinary Perspectives on Carl Schmitt</i>
+                    by Patricia Chiantera-Stutte, Ulrike Jureit, eds Chiantera-StuttePatriciaJureitUlrike, eds,
+                    <i>Geo-Political Spaces: Interdisciplinary Perspectives on Carl Schmitt</i>
+                    , Routledge: London, 2025; 250 pp.; 9781032906461, £171.99 (hbk); 9781003559023, £43.19 (pbk)",https://doi.org/10.1177/02656914261480605i,10.1177/02656914261480605i,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Artefacts of Encounter: Materialising Emotions in Fifty Early Modern Representations</i>
+                    by Karen O’Brien O’BrienKaren,
+                    <i>Artefacts of Encounter: Materialising Emotions in Fifty Early Modern Representations</i>
+                    , Routledge: London, 2026; 196 pp., 25 colour illus, 25 b/w illus; 9781032361109, £171.99 (hbk); 9781032361116, £43.99 (pbk); 9781003330295, £39.59 (ebook)",https://doi.org/10.1177/02656914261480605u,10.1177/02656914261480605u,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>The World at First Light: A New History of the Renaissance</i>
+                    by Bernd Roeck RoeckBernd,
+                    <i>The World at First Light: A New History of the Renaissance</i>
+                    , Patrick Baker, trans, Princeton University Press, Princeton, NJ, 2025; 1184 pp., 32 colour illus, 83 b/w illus; 9780691183831, $45.00 (hbk)",https://doi.org/10.1177/02656914261480605w,10.1177/02656914261480605w,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Élie Bouhéreau: The Collections and Communities of a Huguenot Refugee</i>
+                    by Amy Boylan, Janée Allsman, eds BoylanAmyAllsmanJanée, eds,
+                    <i>Élie Bouhéreau: The Collections and Communities of a Huguenot Refugee</i>
+                    , Four Courts Press: Dublin, 2025; 256 pp.; 9781801511292, €55.00 (hbk)",https://doi.org/10.1177/02656914261480605f,10.1177/02656914261480605f,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>The Making of Modern Kosovo: Reassessing Ibrahim Rugova’s Policy of Non-violence</i>
+                    by Jakup Azemi AzemiJakup,
+                    <i>The Making of Modern Kosovo: Reassessing Ibrahim Rugova’s Policy of Non-violence</i>
+                    , Bloomsbury Academic: London, 2025; 256 pp.; 9781350460058, £65.00 (hbk); 9781350460065, £21.99 (pbk); 9781350460089, £19.79 (ebook)",https://doi.org/10.1177/02656914261480605d,10.1177/02656914261480605d,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Holocaust Testimonies: Reassessing Survivors’ Voices and Their Future in Challenging Times</i>
+                    by Thomas Pegelow Kaplan, Wolf Gruner, Miriam Offer, Boaz Cohen, eds Pegelow KaplanThomasGrunerWolfOfferMiriamCohenBoaz, eds,
+                    <i>Holocaust Testimonies: Reassessing Survivors</i>
+                    ’
+                    <i>Voices and Their Future in Challenging Times</i>
+                    , Bloomsbury Academic: London, 2025; 312 pp., 14 b/w illus; 9781350237872, £85.00 (hbk); 9781350237919, £28.99 (pbk); 9781350237889, £76.50 (ebook)",https://doi.org/10.1177/02656914261480605r,10.1177/02656914261480605r,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Reviews:
+                    <i>How the Spanish Empire Was Built: A 400-Year History</i>
+                    by Felipe Fernández-Armesto and Manuel Lucena Giraldo Fernández-ArmestoFelipeLucena GiraldoManuel, 
+                    <i>How the Spanish Empire Was Built: A 400-Year History</i>
+                    , Reaktion: London, 2024; 352 pp., 32 colour illus; 9781789148404, £25.00 (hbk); 9781836391135, £12.99 (pbk); 9781789148879, £25.00 (ebook)",https://doi.org/10.1177/02656914261480605l,10.1177/02656914261480605l,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Conservatorismo nel Terzo Millennio: Ipotesi a Confronto</i>
+                    by Danilo Breschi, ed. BreschiDanilo, ed.,
+                    <i>Conservatorismo nel Terzo Millennio: Ipotesi a Confronto</i>
+                    , UNINT University Press: Rome, 2026; 136 pp., 9791281079243, €15.00 (pbk)",https://doi.org/10.1177/02656914261480605g,10.1177/02656914261480605g,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Fate Unknown: Tracing the Missing after World War II and the Holocaust</i>
+                    by Dan Stone StoneDan,
+                    <i>Fate Unknown: Tracing the Missing after World War II and the Holocaust</i>
+                    , Oxford University Press: Oxford, 2023; 456 pp.; 9780198846598; $45.99 (hbk)",https://doi.org/10.1177/02656914261480605x,10.1177/02656914261480605x,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Cultures of Protest and Industrial Conflict in Italy Since 1945</i>
+                    by Ilaria Favretto FavrettoIlaria,
+                    <i>Cultures of Protest and Industrial Conflict in Italy Since 1945</i>
+                    , Oxford University Press: Oxford, 2025; 400 pp.; 9780198853992, £119.00 (hbk)",https://doi.org/10.1177/02656914261480605k,10.1177/02656914261480605k,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Arctic Naval Combat in Support of Ground Operations: Soviet Naval Support of the Petsamo-Kirkenes Operation</i>
+                    by Lt.-Col. (Ret.) Lester W. Grau, Lt.-Col. Charles K. Bartles, eds GrauLt.-Col. (Ret.) Lester W.BartlesLt.-Col. Charles K., eds,
+                    <i>Arctic Naval Combat in Support of Ground Operations: Soviet Naval Support of the Petsamo-Kirkenes Operation</i>
+                    ,
+                    <i>October 1944</i>
+                    , Maj. (Ret.) James F. Gebhardt, trans, Lt.-Col. Charles K. Bartles, illustrator, University of Alaska Press: Denver, CO, 2025; 184 pp., 24 illus; 9781646427901, $43.00 (hbk)",https://doi.org/10.1177/02656914261480605o,10.1177/02656914261480605o,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Forgotten Saint-Simonian Travelers in Egypt: Suzanne Voilquin, Ismayl Urbain, and Jehan d'Ivray</i>
+                    by John David Ragan RaganJohn David,
+                    <i>Forgotten Saint-Simonian Travelers in Egypt: Suzanne Voilquin, Ismayl Urbain, and Jehan d'Ivray</i>
+                    , The American University in Cairo Press: Cairo, 2025; 362 pp.; 9781649033857, £65.00 (hbk)",https://doi.org/10.1177/02656914261480605v,10.1177/02656914261480605v,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Minority Memory, Identity, and Reconciliation: The Turkish Muslim Minority of Greece and the Greek Orthodox Minority of Türkiye</i>
+                    by Gül M. Gür GürGül M.,
+                    <i>Minority Memory, Identity, and Reconciliation: The Turkish Muslim Minority of Greece and the Greek Orthodox Minority of Türkiye</i>
+                    , University of Michigan Press: Ann Arbor, MI, 2025; 276 pp., 3 tables; 9780472077458, $75.00 (hbk); 9780472057450, $29.95 (pbk); 9780472905041 (open access ebook)",https://doi.org/10.1177/02656914261480605p,10.1177/02656914261480605p,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Impossible Project: The Story of Russian Ballet and Its Survival</i>
+                    by Daria Khitrova KhitrovaDaria,
+                    <i>Impossible Project: The Story of Russian Ballet and Its Survival</i>
+                    , Oxford University Press, Oxford, 2025; 304 pp.; 9780197653050, £25.99 (hbk)",https://doi.org/10.1177/02656914261480605s,10.1177/02656914261480605s,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Russian Historiography from 1880 to 1905: Pavel N. Miliukov and the Moscow School</i>
+                    by Thomas M. Bohn BohnThomas M.,
+                    <i>Russian Historiography from 1880 to 1905: Pavel N. Miliukov and the Moscow School</i>
+                    , Berghahn: Oxford, 2024; 474 pp., 10 illus, 10 figs, 18 tables; 9781805395485, £138.00 (hbk)",https://doi.org/10.1177/02656914261480605e,10.1177/02656914261480605e,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>La Fregata Novara Intorno al Mondo: Un Racconto di Mare, di Scienza, di Imperi (1857–1859)</i>
+                    by Guido Abbattista and Erica Grossi AbbattistaGuidoGrossiErica,
+                    <i>La Fregata</i>
+                    Novara
+                    <i>Intorno al Mondo: Un Racconto di Mare, di Scienza, di Imperi (1857–1859)</i>
+                    , Salerno Editrice: Rome, 2026; 260 pp.; 9788869738586, €24.00 (pbk)",https://doi.org/10.1177/02656914261480605,10.1177/02656914261480605,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Johann Most: The Life of a Radical</i>
+                    by Tom Goyens GoyensTom,
+                    <i>Johann Most: The Life of a Radical</i>
+                    , University of Illinois Press: Champaign, IL, 2025; 296 pp., 21 b/w illus; 9780252046919, $125.00 (hbk); 9780252089039, $29.95 (pbk); 9780252048470, $14.95 (ebook)",https://doi.org/10.1177/02656914261480605n,10.1177/02656914261480605n,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>The War for Anatolia and the Remaking of International Order: Greece, Turkey and the End of the First World War</i>
+                    by Georgios Giannakopoulos, Joseph A. Maiolo, Gonda Van Steen, eds GiannakopoulosGeorgiosMaioloJoseph A.Van SteenGonda, eds,
+                    <i>The War for Anatolia and the Remaking of International Order: Greece, Turkey and the End of the First World War</i>
+                    , Bloomsbury Academic: London, 2025; 288 pp., 10 b/w illus; 9781350420946; £85.00 (hbk); 9781350420953, £76.50 (ebook)",https://doi.org/10.1177/02656914261480605m,10.1177/02656914261480605m,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+European History Quarterly,j015,"Book Review:
+                    <i>Comic Fascism: Ideology, Catholicism, and Americanism in Italian Children’s Periodicals</i>
+                    by Zane Elward ElwardZane,
+                    <i>Comic Fascism: Ideology, Catholicism, and Americanism in Italian Children’s Periodicals</i>
+                    , Ohio State University Press: Columbus, OH, 2025; 232 pp., 20 b/w illus.; 9780814215920, $99.95 (hbk); 9780814259528, $36.95 (pbk); 9780814284230, $36.95 (ebook)",https://doi.org/10.1177/02656914261480605j,10.1177/02656914261480605j,2026-10-28T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,4,
+History and Sociology of South Asia,j016,"U. P. Thapliyal,
+                    <i>Martial Music of India: From Earliest Times</i>",https://doi.org/10.1177/22308075261498291,10.1177/22308075261498291,2026-10-27T00:00:00,2026-10-28T00:00:00,journal-article,crossref_recent,,
+History of Science,j017,"Sovereignty and meteorology: China, France, and the 1932 Xisha Islands dispute",https://doi.org/10.1177/00732753261496066,10.1177/00732753261496066,2026-10-26T00:00:00,2026-10-27T00:00:00,journal-article,crossref_recent,,
+History of Science,j017,"Natural history, law, and the politics of redefinition in the Age of Reform",https://doi.org/10.1177/00732753261487061,10.1177/00732753261487061,2026-10-26T00:00:00,2026-10-27T00:00:00,journal-article,crossref_recent,,
+Journal of Contemporary History,j018,"Urban Tourism, State Intervention and Peripheral Development in Barcelona and Naples, 1939–59",https://doi.org/10.1177/00220094261501103,10.1177/00220094261501103,2026-10-30T00:00:00,2026-10-30T00:00:00,journal-article,crossref_recent,,
+"Law, Culture and the Humanities",j052,Reciting Law After Auschwitz,https://doi.org/10.1177/17438721261497628,10.1177/17438721261497628,2026-10-22T00:00:00,2026-10-22T00:00:00,journal-article,crossref_recent,,
