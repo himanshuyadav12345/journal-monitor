@@ -1,85 +1,20 @@
 {
-  "generated_at": "2026-11-07T13:04:56.485943+00:00",
-  "new_count": 6,
-  "candidate_count": 1871,
+  "generated_at": "2026-11-08T13:29:19.445746+00:00",
+  "new_count": 1,
+  "candidate_count": 1865,
   "articles": [
     {
-      "journal": "The English Historical Review",
-      "journal_id": "j002",
-      "title": "Jews and the Wine Trade in Medieval Europe: Principles and Pressures, by Haym Soloveitchik, tr. David Louvish and ed. Leon Wieseltier",
-      "url": "https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag248/9017943?rss=1",
-      "doi": "10.1093/ehr/ceag248",
-      "published": "2026-11-06T00:00:00+00:00",
-      "updated": "2026-11-06T00:00:00+00:00",
+      "journal": "Oxford Journal of Law and Religion",
+      "journal_id": "j062",
+      "title": "Vallier’s Parochial Theoretical Project: A Reformation Critique and Alternative",
+      "url": "https://academic.oup.com/ojlr/advance-article/doi/10.1093/ojlr/rwag018/9022103?rss=1",
+      "doi": "10.1093/ojlr/rwag018",
+      "published": "2026-11-07T00:00:00+00:00",
+      "updated": "2026-11-07T00:00:00+00:00",
       "item_type": null,
       "source": "publisher:advance",
       "issue": null,
       "stage": null
-    },
-    {
-      "journal": "The English Historical Review",
-      "journal_id": "j002",
-      "title": "Visual Translation: Illuminated Manuscripts and the First French Humanists, by Anne D. Hedeman",
-      "url": "https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag240/9017942?rss=1",
-      "doi": "10.1093/ehr/ceag240",
-      "published": "2026-11-06T00:00:00+00:00",
-      "updated": "2026-11-06T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "The English Historical Review",
-      "journal_id": "j002",
-      "title": "The Chinese in Maritime Southeast Asia: Trade and Merchant Communities in Seventeenth-Century Insulindia, by Marie-Sybille de Vienne",
-      "url": "https://academic.oup.com/ehr/advance-article/doi/10.1093/ehr/ceag239/9017941?rss=1",
-      "doi": "10.1093/ehr/ceag239",
-      "published": "2026-11-06T00:00:00+00:00",
-      "updated": "2026-11-06T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Socio-Economic Review",
-      "journal_id": "j007",
-      "title": "Big Tech’s power resources: four eras of corporate influence in the EU",
-      "url": "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag055/9017988?rss=1",
-      "doi": "10.1093/ser/mwag055",
-      "published": "2026-11-06T00:00:00+00:00",
-      "updated": "2026-11-06T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "Holocaust and Genocide Studies",
-      "journal_id": "j060",
-      "title": "A city of “ambiguous loss”: digital methods and a multiscalar examination of Jewish Budapest in the aftermath of the Holocaust",
-      "url": "https://academic.oup.com/hgs/advance-article/doi/10.1093/hgs/dcag048/9017828?rss=1",
-      "doi": "10.1093/hgs/dcag048",
-      "published": "2026-11-06T00:00:00+00:00",
-      "updated": "2026-11-06T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
-      "issue": null,
-      "stage": null
-    },
-    {
-      "journal": "South Asian Studies",
-      "journal_id": "j077",
-      "title": "Read(?) the Signs: By Solving a Math-Puzzle or by Wearing Harappan Shoes?",
-      "url": "https://doi.org/10.1080/02666030.2026.2742008",
-      "doi": "10.1080/02666030.2026.2742008",
-      "published": "2026-11-06T00:00:00",
-      "updated": "2026-11-06T00:00:00",
-      "item_type": "journal-article",
-      "source": "crossref:online_first",
-      "issue": null,
-      "stage": "online_first"
     }
   ],
   "source_stats": {
@@ -149,7 +84,7 @@
     "j064": 87,
     "j065": 26,
     "j066": 31,
-    "j067": 44,
+    "j067": 42,
     "j068": 5,
     "j069": 48,
     "j070": 35,
@@ -160,8 +95,8 @@
     "j075": 38,
     "j076": 30,
     "j077": 7,
-    "j078": 68,
-    "j079": 50
+    "j078": 66,
+    "j079": 48
   },
   "source_availability": {
     "j001": {
@@ -650,13 +585,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 44,
-      "raw_records": 44,
+      "records": 42,
+      "raw_records": 42,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 19,
+      "tandf_issue_records": 17,
       "tandf_online_first_records": 25,
-      "crossref_records": 44
+      "crossref_records": 42
     },
     "j068": {
       "issue": false,
@@ -782,25 +717,25 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 68,
-      "raw_records": 68,
+      "records": 66,
+      "raw_records": 66,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 24,
-      "tandf_online_first_records": 44,
-      "crossref_records": 68
+      "tandf_issue_records": 23,
+      "tandf_online_first_records": 43,
+      "crossref_records": 66
     },
     "j079": {
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 50,
-      "raw_records": 50,
+      "records": 48,
+      "raw_records": 48,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 26,
+      "tandf_issue_records": 24,
       "tandf_online_first_records": 24,
-      "crossref_records": 50
+      "crossref_records": 48
     }
   },
   "quality_control": {
