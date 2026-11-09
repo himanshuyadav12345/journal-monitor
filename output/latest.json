@@ -1,20 +1,33 @@
 {
-  "generated_at": "2026-11-08T13:29:19.445746+00:00",
-  "new_count": 1,
-  "candidate_count": 1865,
+  "generated_at": "2026-11-09T16:24:29.961222+00:00",
+  "new_count": 2,
+  "candidate_count": 1862,
   "articles": [
     {
-      "journal": "Oxford Journal of Law and Religion",
-      "journal_id": "j062",
-      "title": "Vallier’s Parochial Theoretical Project: A Reformation Critique and Alternative",
-      "url": "https://academic.oup.com/ojlr/advance-article/doi/10.1093/ojlr/rwag018/9022103?rss=1",
-      "doi": "10.1093/ojlr/rwag018",
-      "published": "2026-11-07T00:00:00+00:00",
-      "updated": "2026-11-07T00:00:00+00:00",
-      "item_type": null,
-      "source": "publisher:advance",
+      "journal": "Comparative Legal History",
+      "journal_id": "j067",
+      "title": "A companion to Western legal traditions: from antiquity to the twentieth century",
+      "url": "https://doi.org/10.1080/2049677x.2026.2752458",
+      "doi": "10.1080/2049677x.2026.2752458",
+      "published": "2026-11-09T00:00:00",
+      "updated": "2026-11-09T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
       "issue": null,
-      "stage": null
+      "stage": "online_first"
+    },
+    {
+      "journal": "South Asian Studies",
+      "journal_id": "j077",
+      "title": "Crossroads of Conservation, Culture and Nature: Case of the Lonar Crater",
+      "url": "https://doi.org/10.1080/02666030.2026.2756085",
+      "doi": "10.1080/02666030.2026.2756085",
+      "published": "2026-11-08T00:00:00",
+      "updated": "2026-11-09T00:00:00",
+      "item_type": "journal-article",
+      "source": "crossref:online_first",
+      "issue": null,
+      "stage": "online_first"
     }
   ],
   "source_stats": {
@@ -81,12 +94,12 @@
     "j061": 14,
     "j062": 4,
     "j063": 10,
-    "j064": 87,
+    "j064": 86,
     "j065": 26,
-    "j066": 31,
-    "j067": 42,
+    "j066": 30,
+    "j067": 43,
     "j068": 5,
-    "j069": 48,
+    "j069": 45,
     "j070": 35,
     "j071": 17,
     "j072": 18,
@@ -94,7 +107,7 @@
     "j074": 10,
     "j075": 38,
     "j076": 30,
-    "j077": 7,
+    "j077": 8,
     "j078": 66,
     "j079": 48
   },
@@ -549,13 +562,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 87,
-      "raw_records": 87,
+      "records": 86,
+      "raw_records": 86,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 9,
+      "tandf_issue_records": 8,
       "tandf_online_first_records": 78,
-      "crossref_records": 87
+      "crossref_records": 86
     },
     "j065": {
       "issue": false,
@@ -565,33 +578,33 @@
       "raw_records": 26,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
-      "tandf_issue_records": 3,
-      "tandf_online_first_records": 23,
+      "tandf_issue_records": 12,
+      "tandf_online_first_records": 14,
       "crossref_records": 26
     },
     "j066": {
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 31,
-      "raw_records": 31,
+      "records": 30,
+      "raw_records": 30,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 18,
-      "tandf_online_first_records": 13,
-      "crossref_records": 31
+      "tandf_online_first_records": 12,
+      "crossref_records": 30
     },
     "j067": {
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 42,
-      "raw_records": 42,
+      "records": 43,
+      "raw_records": 43,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 17,
-      "tandf_online_first_records": 25,
-      "crossref_records": 42
+      "tandf_online_first_records": 26,
+      "crossref_records": 43
     },
     "j068": {
       "issue": false,
@@ -609,13 +622,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 48,
-      "raw_records": 48,
+      "records": 45,
+      "raw_records": 45,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 0,
-      "tandf_online_first_records": 48,
-      "crossref_records": 48
+      "tandf_online_first_records": 45,
+      "crossref_records": 45
     },
     "j070": {
       "issue": false,
@@ -705,13 +718,13 @@
       "issue": false,
       "advance": false,
       "fallback": "crossref",
-      "records": 7,
-      "raw_records": 7,
+      "records": 8,
+      "raw_records": 8,
       "stale_rejected": 0,
       "tandf_rss_records": 0,
       "tandf_issue_records": 0,
-      "tandf_online_first_records": 7,
-      "crossref_records": 7
+      "tandf_online_first_records": 8,
+      "crossref_records": 8
     },
     "j078": {
       "issue": false,
